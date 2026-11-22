@@ -1,6 +1,7 @@
 {
   "ui": {
     "skip": "Chuyển đến nội dung",
+    "menu": "Menu",
     "mainNav": "Điều hướng chính",
     "footerNav": "Chân trang",
     "overview": "Tổng quan",
@@ -28,6 +29,7 @@
     "headlineSecond": "Xem ngay trên thanh menu.",
     "intro": "Xem nhiệt độ và tình trạng SMART của ổ NVMe ngoài ngay trên thanh menu của Mac.",
     "check": "Kiểm tra khả năng tương thích",
+    "preview": "Xem trước ứng dụng",
     "heroAlt": "NVMe Monitor hiển thị SSD ngoài đang kết nối cùng nhiệt độ tổng hợp, nhiệt độ từng cảm biến và các chỉ số SMART",
     "example": "Ví dụ chỉ số SMART / NVMe ngoài 2 TB",
     "features": "Một menu cho mọi ổ đĩa đang kết nối.",

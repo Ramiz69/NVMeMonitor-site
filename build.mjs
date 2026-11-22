@@ -1,10 +1,22 @@
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { cp, readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
-import { join } from 'node:path';
+import { isAbsolute, join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = fileURLToPath(new URL('.', import.meta.url));
-const publicDir = join(root, 'public');
+const sourcePublic = join(root, 'public');
+const previewDir = process.env.NVME_PREVIEW_DIR;
+const publicDir = previewDir ? resolve(previewDir) : sourcePublic;
+if (previewDir) {
+  const separation = [relative(root, publicDir), relative(publicDir, root)];
+  if (separation.some(path => path !== '..' && !path.startsWith('../') && !isAbsolute(path))) {
+    throw new Error('NVME_PREVIEW_DIR must be outside the site checkout.');
+  }
+  await mkdir(publicDir, { recursive: true });
+  await Promise.all(['assets', 'press'].map(directory => cp(
+    join(sourcePublic, directory), join(publicDir, directory), { recursive: true },
+  )));
+}
 const origin = 'https://nvmemonitor.app';
 const appStore = 'https://apps.apple.com/app/id6837879526';
 const email = 'support@nvmemonitor.app';
@@ -36,7 +48,7 @@ if (storePublished) {
     if (!aspect || !(Number(aspect[1]) > 0) || !(Number(aspect[2]) > 0)) {
       throw new Error(`Invalid Mac App Store badge dimensions: ${badgeLocale}`);
     }
-    const height = 48;
+    const height = 40;
     const width = Math.round(height * Number(aspect[1]) / Number(aspect[2]));
     const url = `/assets/badges/${filename(badgeLocale)}`;
     await writeFile(join(publicDir, url), artwork);
@@ -115,23 +127,37 @@ function navigation(locale, page, strings, footer = false) {
     item('press', strings.press, footer ? '' : ' class="desktop-link"')].join('');
 }
 
+function icon(name) {
+  return `<span class="glyph glyph-${name}" aria-hidden="true"></span>`;
+}
+
+function dropdown(id, caption, label, options, enhanced = false) {
+  return `<div class="control control-${id}"${enhanced ? ' hidden' : ''}>
+        <span class="control-caption" id="${id}-label">${caption}</span>
+        <details class="dropdown" id="${id}">
+          <summary class="dropdown-trigger" aria-labelledby="${id}-label ${id}-value">
+            <span id="${id}-value" class="dropdown-value">${label}</span>${icon('chevron')}
+          </summary>
+          <ul class="dropdown-options">${options.map(option => `<li>${option}</li>`).join('')}</ul>
+        </details>
+      </div>`;
+}
+
+function preference(id, label, options, initialValue) {
+  const initialLabel = options.find(([value]) => value === initialValue)[1];
+  const items = options.map(([value, caption]) =>
+    `<button type="button" dir="auto" data-value="${value}" aria-pressed="${value === initialValue}">${caption}</button>`);
+  return dropdown(id, label, initialLabel, items, true);
+}
+
 function controls(locale, page, ui) {
   const options = languages.map(code =>
-    `<li><a href="${route(code, page)}" lang="${code}" hreflang="${code}" dir="auto"${code === locale ? ' aria-current="page"' : ''}>${locales[code]}</a></li>`).join('');
-  return `<div class="site-controls">
-      <details class="languages">
-        <summary aria-label="${ui.language}: ${locales[locale]}">${locales[locale]}</summary>
-        <ul>${options}</ul>
-      </details>
-      <label class="theme-control" hidden>
-        <span class="sr-only">${ui.theme}</span>
-        <select id="theme" aria-label="${ui.theme}">
-          <option value="system">${ui.system}</option>
-          <option value="light">${ui.light}</option>
-          <option value="dark">${ui.dark}</option>
-        </select>
-      </label>
-    </div>`;
+    `<a href="${route(code, page)}" lang="${code}" hreflang="${code}" dir="auto"${code === locale ? ' aria-current="page"' : ''}>${locales[code]}</a>`);
+  const language = dropdown('language', ui.language, locales[locale], options);
+  const theme = preference('theme', ui.theme, [
+    ['system', ui.system], ['light', ui.light], ['dark', ui.dark],
+  ], 'system');
+  return `<div class="site-controls">${language}${theme}</div>`;
 }
 
 function storeLink(locale) {
@@ -175,60 +201,55 @@ function layout(locale, page, body) {
   <meta property="og:image:alt" content="${strings.home.heroAlt}">
   <meta name="twitter:card" content="summary_large_image">${schema ? `\n  <script type="application/ld+json">${JSON.stringify(schema).replace(/</g, '\\u003c')}</script>` : ''}
 </head>
-<body>
+<body${page === 'home' ? ' class="page-home"' : ''}>
   <a class="skip" href="#main">${ui.skip}</a>
   <header class="bar masthead">
-    <a class="brand" href="${route(locale, 'home')}"><img src="/assets/icon.png" alt="" width="36" height="36"> NVMe Monitor</a>
-    <nav aria-label="${ui.mainNav}">${navigation(locale, page, ui)}</nav>
-    ${controls(locale, page, ui)}
+    <a class="brand" href="${route(locale, 'home')}"><img src="/assets/icon.png" alt="" width="34" height="34"> NVMe Monitor</a>
+    <button type="button" class="mobile-toggle" aria-controls="masthead-content" aria-expanded="false" hidden><span>${ui.menu}</span>${icon('menu')}${icon('close')}</button>
+    <div class="masthead-content" id="masthead-content">
+      <nav aria-label="${ui.mainNav}">${navigation(locale, page, ui)}</nav>
+      ${controls(locale, page, ui)}
+    </div>
   </header>
   <main id="main">
 ${body}
   </main>
   <footer class="bar footer">
-    <div><a class="footer-name" href="${route(locale, 'home')}">NVMe Monitor</a><p>${ui.local}</p></div>
-    <div><p>${ui.shortcuts}</p><a href="mailto:${email}">${email}</a></div>
-    <nav aria-label="${ui.footerNav}">${navigation(locale, page, ui, true)}</nav>${page === 'home' ? '' : `\n    ${storeLink(locale)}`}
+    <div><a class="footer-name" href="${route(locale, 'home')}">NVMe Monitor</a>${page === 'home' ? '' : `<p>${ui.local}</p>`}</div>
+    ${page === 'home' ? '' : `<div><p>${ui.shortcuts}</p><a href="mailto:${email}">${email}</a></div>
+    `}<nav aria-label="${ui.footerNav}">${navigation(locale, page, ui, true)}</nav>${page === 'home' ? '' : `\n    ${storeLink(locale)}`}
   </footer>
 </body>
 </html>
 `;
 }
 
-function home(locale, { ui, home: t, press }) {
-  const feature = (key) => `<div><h3>${t[key]}</h3><p>${t[key + 'Body']}</p></div>`;
-  const requirement = (key) => `<div><dt>${t[key]}</dt><dd>${t[key + 'Body']}</dd></div>`;
+function home(locale, { ui, home: t }) {
+  const feature = key => `<div>${icon(key)}<h3>${t[key]}</h3><p>${t[key + 'Body']}</p></div>`;
+  const requirement = key => `<div><dt>${t[key]}</dt><dd>${t[key + 'Body']}</dd></div>`;
   const titleGap = /^(ja|zh-)/.test(locale) ? '' : ' ';
+  const unitOptions = preference('temperature-unit', ui.unit, [
+    ['celsius', `${ui.celsius} (°C)`], ['fahrenheit', `${ui.fahrenheit} (°F)`],
+  ], 'celsius');
   return `    <section class="hero">
       <div class="hero-copy">
-        <h1>${t.headlineFirst}${titleGap}${t.headlineSecond}</h1>
+        <h1><span>${t.headlineFirst}</span>${titleGap}<span>${t.headlineSecond}</span></h1>
         <p class="intro">${t.intro}</p>
         <div class="hero-actions">
-          <a class="button" href="#compatibility">${t.check}</a>
           ${storeLink(locale)}
+          <a class="button" href="#compatibility">${t.check}</a>
         </div>
         <p class="hero-requirement">${t.macBody}</p>
       </div>
       <div class="product-stage">
         <div class="stage-toolbar">
-          <span class="stage-title"><img src="/assets/icon.png" alt="" width="24" height="24"> NVMe Monitor</span>
-          <label class="temperature-control" hidden>
-            <span>${ui.unit}</span>
-            <select id="temperature-unit" aria-label="${ui.unit}">
-              <option value="celsius">${ui.celsius} (°C)</option>
-              <option value="fahrenheit">${ui.fahrenheit} (°F)</option>
-            </select>
-          </label>
+          <span class="stage-title">${t.preview}</span>
+          ${unitOptions}
         </div>
-        <div class="stage-content">
-          <figure class="stage-settings">
-            <img src="/press/nvme-monitor-settings.webp" width="640" height="417" loading="lazy" decoding="async" alt="${press.settings}">
-          </figure>
-          <figure class="hero-image">
-            <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="${t.heroAlt}">
-            <figcaption>${t.example}</figcaption>
-          </figure>
-        </div>
+        <figure class="hero-image">
+          <div class="preview-art"><img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="${t.heroAlt}"></div>
+          <figcaption>${t.example}</figcaption>
+        </figure>
       </div>
     </section>
     <section class="features" aria-labelledby="features">

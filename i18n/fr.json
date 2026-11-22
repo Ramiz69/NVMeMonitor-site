@@ -1,6 +1,7 @@
 {
   "ui": {
     "skip": "Aller au contenu",
+    "menu": "Menu",
     "mainNav": "Navigation principale",
     "footerNav": "Pied de page",
     "overview": "Présentation",
@@ -28,6 +29,7 @@
     "headlineSecond": "sur la température de votre SSD.",
     "intro": "Consultez la température et l’état SMART de vos disques NVMe externes, directement dans la barre des menus du Mac.",
     "check": "Vérifier la compatibilité",
+    "preview": "Aperçu de l’app",
     "heroAlt": "NVMe Monitor affiche un SSD externe connecté, sa température composite, les relevés de ses capteurs et ses données SMART",
     "example": "Exemple de relevé SMART / NVMe externe de 2 To",
     "features": "Tous vos disques connectés dans un seul menu.",

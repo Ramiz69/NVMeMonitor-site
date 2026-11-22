@@ -1,6 +1,7 @@
 {
   "ui": {
     "skip": "跳到正文",
+    "menu": "菜单",
     "mainNav": "主导航",
     "footerNav": "页脚",
     "overview": "概览",
@@ -28,6 +29,7 @@
     "headlineSecond": "一眼就知道。",
     "intro": "直接在 Mac 菜单栏查看外置 NVMe 驱动器的温度和 SMART 状态。",
     "check": "查看兼容性",
+    "preview": "应用预览",
     "heroAlt": "NVMe Monitor 显示已连接的外置 SSD，以及它的综合温度、各传感器温度和 SMART 读数",
     "example": "SMART 读数示例 / 2 TB 外置 NVMe SSD",
     "features": "在一个菜单中查看所有已连接的驱动器。",

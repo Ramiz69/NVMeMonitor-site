@@ -1,6 +1,7 @@
 {
   "ui": {
     "skip": "Lewati ke konten",
+    "menu": "Menu",
     "mainNav": "Navigasi utama",
     "footerNav": "Bagian bawah halaman",
     "overview": "Ikhtisar",
@@ -28,6 +29,7 @@
     "headlineSecond": "Lihat sekilas di bar menu.",
     "intro": "Lihat suhu dan status SMART drive NVMe eksternal langsung di bar menu Mac.",
     "check": "Periksa kompatibilitas",
+    "preview": "Pratinjau aplikasi",
     "heroAlt": "NVMe Monitor menampilkan SSD eksternal yang terhubung, suhu gabungan, suhu tiap sensor, dan data SMART",
     "example": "Contoh pembacaan SMART / NVMe eksternal 2 TB",
     "features": "Satu menu untuk semua drive yang terhubung.",

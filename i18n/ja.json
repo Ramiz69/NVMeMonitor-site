@@ -1,6 +1,7 @@
 {
   "ui": {
     "skip": "本文へ移動",
+    "menu": "メニュー",
     "mainNav": "メインナビゲーション",
     "footerNav": "フッター",
     "overview": "概要",
@@ -28,6 +29,7 @@
     "headlineSecond": "ひと目でチェック。",
     "intro": "外付けNVMeドライブの温度とSMART情報を、Macのメニューバーからすぐに確認できます。",
     "check": "互換性を確認",
+    "preview": "アプリのプレビュー",
     "heroAlt": "NVMe Monitorに、接続中の外付けSSDの総合温度、各センサーの温度、SMART情報が表示されています",
     "example": "SMART表示例 / 2 TBの外付けNVMe SSD",
     "features": "つないだドライブを、ひとつのメニューで。",

@@ -26,8 +26,8 @@
   <link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/">
   <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/">
   <link rel="icon" type="image/png" href="/assets/icon.png">
-  <script src="/assets/releases/preferences.214bd708e36203cc.js"></script>
-  <link rel="stylesheet" href="/assets/releases/site.047030fc00fc3085.css">
+  <script src="/assets/releases/preferences.ed91cb380066cac9.js"></script>
+  <link rel="stylesheet" href="/assets/releases/site.fd20e840d6c0fe31.css">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NVMe Monitor">
   <meta property="og:url" content="https://nvmemonitor.app/ja/">
@@ -40,62 +40,65 @@
   <meta name="twitter:card" content="summary_large_image">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"NVMe Monitor","url":"https://nvmemonitor.app/ja/","inLanguage":"ja","applicationCategory":"UtilitiesApplication","operatingSystem":"macOS 27+","description":"Macのメニューバーで外付けNVMe SSDの温度とSMART情報を確認。対応ドライブの監視や通知の設定、ショートカットでの温度取得ができます。","image":"https://nvmemonitor.app/assets/social.jpg"}</script>
 </head>
-<body>
+<body class="page-home">
   <a class="skip" href="#main">本文へ移動</a>
   <header class="bar masthead">
-    <a class="brand" href="/ja/"><img src="/assets/icon.png" alt="" width="36" height="36"> NVMe Monitor</a>
-    <nav aria-label="メインナビゲーション"><a class="desktop-link" href="#compatibility">互換性</a><a href="/ja/support/">サポート</a><a href="/ja/privacy/" class="desktop-link">プライバシー</a><a href="/ja/press/" class="desktop-link">プレスキット</a></nav>
-    <div class="site-controls">
-      <details class="languages">
-        <summary aria-label="言語: 日本語">日本語</summary>
-        <ul><li><a href="/" lang="en" hreflang="en" dir="auto">English</a></li><li><a href="/ar/" lang="ar" hreflang="ar" dir="auto">العربية</a></li><li><a href="/de/" lang="de" hreflang="de" dir="auto">Deutsch</a></li><li><a href="/es/" lang="es" hreflang="es" dir="auto">Español</a></li><li><a href="/fr/" lang="fr" hreflang="fr" dir="auto">Français</a></li><li><a href="/hi/" lang="hi" hreflang="hi" dir="auto">हिन्दी</a></li><li><a href="/id/" lang="id" hreflang="id" dir="auto">Bahasa Indonesia</a></li><li><a href="/it/" lang="it" hreflang="it" dir="auto">Italiano</a></li><li><a href="/ja/" lang="ja" hreflang="ja" dir="auto" aria-current="page">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko" dir="auto">한국어</a></li><li><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" dir="auto">Português (Brasil)</a></li><li><a href="/ru/" lang="ru" hreflang="ru" dir="auto">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr" dir="auto">Türkçe</a></li><li><a href="/uk/" lang="uk" hreflang="uk" dir="auto">Українська</a></li><li><a href="/vi/" lang="vi" hreflang="vi" dir="auto">Tiếng Việt</a></li><li><a href="/zh-hans/" lang="zh-Hans" hreflang="zh-Hans" dir="auto">简体中文</a></li><li><a href="/zh-hant/" lang="zh-Hant" hreflang="zh-Hant" dir="auto">繁體中文</a></li></ul>
-      </details>
-      <label class="theme-control" hidden>
-        <span class="sr-only">外観</span>
-        <select id="theme" aria-label="外観">
-          <option value="system">システム</option>
-          <option value="light">ライト</option>
-          <option value="dark">ダーク</option>
-        </select>
-      </label>
+    <a class="brand" href="/ja/"><img src="/assets/icon.png" alt="" width="34" height="34"> NVMe Monitor</a>
+    <button type="button" class="mobile-toggle" aria-controls="masthead-content" aria-expanded="false" hidden><span>メニュー</span><span class="glyph glyph-menu" aria-hidden="true"></span><span class="glyph glyph-close" aria-hidden="true"></span></button>
+    <div class="masthead-content" id="masthead-content">
+      <nav aria-label="メインナビゲーション"><a class="desktop-link" href="#compatibility">互換性</a><a href="/ja/support/">サポート</a><a href="/ja/privacy/" class="desktop-link">プライバシー</a><a href="/ja/press/" class="desktop-link">プレスキット</a></nav>
+      <div class="site-controls"><div class="control control-language">
+        <span class="control-caption" id="language-label">言語</span>
+        <details class="dropdown" id="language">
+          <summary class="dropdown-trigger" aria-labelledby="language-label language-value">
+            <span id="language-value" class="dropdown-value">日本語</span><span class="glyph glyph-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-options"><li><a href="/" lang="en" hreflang="en" dir="auto">English</a></li><li><a href="/ar/" lang="ar" hreflang="ar" dir="auto">العربية</a></li><li><a href="/de/" lang="de" hreflang="de" dir="auto">Deutsch</a></li><li><a href="/es/" lang="es" hreflang="es" dir="auto">Español</a></li><li><a href="/fr/" lang="fr" hreflang="fr" dir="auto">Français</a></li><li><a href="/hi/" lang="hi" hreflang="hi" dir="auto">हिन्दी</a></li><li><a href="/id/" lang="id" hreflang="id" dir="auto">Bahasa Indonesia</a></li><li><a href="/it/" lang="it" hreflang="it" dir="auto">Italiano</a></li><li><a href="/ja/" lang="ja" hreflang="ja" dir="auto" aria-current="page">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko" dir="auto">한국어</a></li><li><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" dir="auto">Português (Brasil)</a></li><li><a href="/ru/" lang="ru" hreflang="ru" dir="auto">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr" dir="auto">Türkçe</a></li><li><a href="/uk/" lang="uk" hreflang="uk" dir="auto">Українська</a></li><li><a href="/vi/" lang="vi" hreflang="vi" dir="auto">Tiếng Việt</a></li><li><a href="/zh-hans/" lang="zh-Hans" hreflang="zh-Hans" dir="auto">简体中文</a></li><li><a href="/zh-hant/" lang="zh-Hant" hreflang="zh-Hant" dir="auto">繁體中文</a></li></ul>
+        </details>
+      </div><div class="control control-theme" hidden>
+        <span class="control-caption" id="theme-label">外観</span>
+        <details class="dropdown" id="theme">
+          <summary class="dropdown-trigger" aria-labelledby="theme-label theme-value">
+            <span id="theme-value" class="dropdown-value">システム</span><span class="glyph glyph-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-options"><li><button type="button" dir="auto" data-value="system" aria-pressed="true">システム</button></li><li><button type="button" dir="auto" data-value="light" aria-pressed="false">ライト</button></li><li><button type="button" dir="auto" data-value="dark" aria-pressed="false">ダーク</button></li></ul>
+        </details>
+      </div></div>
     </div>
   </header>
   <main id="main">
     <section class="hero">
       <div class="hero-copy">
-        <h1>気になるSSDの温度を、ひと目でチェック。</h1>
+        <h1><span>気になるSSDの温度を、</span><span>ひと目でチェック。</span></h1>
         <p class="intro">外付けNVMeドライブの温度とSMART情報を、Macのメニューバーからすぐに確認できます。</p>
         <div class="hero-actions">
-          <a class="button" href="#compatibility">互換性を確認</a>
           <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
+          <a class="button" href="#compatibility">互換性を確認</a>
         </div>
         <p class="hero-requirement">macOS 27以降。</p>
       </div>
       <div class="product-stage">
         <div class="stage-toolbar">
-          <span class="stage-title"><img src="/assets/icon.png" alt="" width="24" height="24"> NVMe Monitor</span>
-          <label class="temperature-control" hidden>
-            <span>温度の単位</span>
-            <select id="temperature-unit" aria-label="温度の単位">
-              <option value="celsius">摂氏 (°C)</option>
-              <option value="fahrenheit">華氏 (°F)</option>
-            </select>
-          </label>
+          <span class="stage-title">アプリのプレビュー</span>
+          <div class="control control-temperature-unit" hidden>
+        <span class="control-caption" id="temperature-unit-label">温度の単位</span>
+        <details class="dropdown" id="temperature-unit">
+          <summary class="dropdown-trigger" aria-labelledby="temperature-unit-label temperature-unit-value">
+            <span id="temperature-unit-value" class="dropdown-value">摂氏 (°C)</span><span class="glyph glyph-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-options"><li><button type="button" dir="auto" data-value="celsius" aria-pressed="true">摂氏 (°C)</button></li><li><button type="button" dir="auto" data-value="fahrenheit" aria-pressed="false">華氏 (°F)</button></li></ul>
+        </details>
+      </div>
         </div>
-        <div class="stage-content">
-          <figure class="stage-settings">
-            <img src="/press/nvme-monitor-settings.webp" width="640" height="417" loading="lazy" decoding="async" alt="メニューバーに表示するドライブ、更新間隔、温度の単位の設定">
-          </figure>
-          <figure class="hero-image">
-            <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitorに、接続中の外付けSSDの総合温度、各センサーの温度、SMART情報が表示されています">
-            <figcaption>SMART表示例 / 2 TBの外付けNVMe SSD</figcaption>
-          </figure>
-        </div>
+        <figure class="hero-image">
+          <div class="preview-art"><img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitorに、接続中の外付けSSDの総合温度、各センサーの温度、SMART情報が表示されています"></div>
+          <figcaption>SMART表示例 / 2 TBの外付けNVMe SSD</figcaption>
+        </figure>
       </div>
     </section>
     <section class="features" aria-labelledby="features">
       <h2 id="features">つないだドライブを、ひとつのメニューで。</h2>
-      <div class="columns"><div><h3>温度</h3><p>ドライブが報告する総合温度と、個別のセンサーの温度を確認できます。</p></div><div><h3>SMART情報</h3><p>消耗度、予備領域の残量、通電時間、メディアエラーをまとめて確認できます。</p></div><div><h3>ローカル通知</h3><p>温度のしきい値を設定できます。ドライブが警告を報告すると通知が届きます。</p></div></div>
+      <div class="columns"><div><span class="glyph glyph-temperature" aria-hidden="true"></span><h3>温度</h3><p>ドライブが報告する総合温度と、個別のセンサーの温度を確認できます。</p></div><div><span class="glyph glyph-smart" aria-hidden="true"></span><h3>SMART情報</h3><p>消耗度、予備領域の残量、通電時間、メディアエラーをまとめて確認できます。</p></div><div><span class="glyph glyph-alerts" aria-hidden="true"></span><h3>ローカル通知</h3><p>温度のしきい値を設定できます。ドライブが警告を報告すると通知が届きます。</p></div></div>
     </section>
     <section class="compatibility" id="compatibility" aria-labelledby="compatibility-title">
       <div class="compatibility-layout">
@@ -108,8 +111,7 @@
     </section>
   </main>
   <footer class="bar footer">
-    <div><a class="footer-name" href="/ja/">NVMe Monitor</a><p>Mac上で動作します。アカウントは不要です。</p></div>
-    <div><p>ショートカットで「ドライブの温度を取得」</p><a href="mailto:support@nvmemonitor.app">support@nvmemonitor.app</a></div>
+    <div><a class="footer-name" href="/ja/">NVMe Monitor</a></div>
     <nav aria-label="フッター"><a href="/ja/" aria-current="page">概要</a><a href="/ja/support/">サポート</a><a href="/ja/privacy/">プライバシー</a><a href="/ja/press/">プレスキット</a></nav>
   </footer>
 </body>

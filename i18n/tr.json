@@ -1,6 +1,7 @@
 {
   "ui": {
     "skip": "İçeriğe geç",
+    "menu": "Menü",
     "mainNav": "Ana gezinme",
     "footerNav": "Alt bilgi",
     "overview": "Genel Bakış",
@@ -28,6 +29,7 @@
     "headlineSecond": "ısındığını görün.",
     "intro": "Harici NVMe sürücülerinizin sıcaklığına ve SMART durumuna doğrudan Mac’in menü çubuğundan bakın.",
     "check": "Uyumluluğu kontrol et",
+    "preview": "Uygulama önizlemesi",
     "heroAlt": "NVMe Monitor bağlı harici SSD’yi, bileşik sıcaklığı, sensör sıcaklıklarını ve SMART ölçümlerini gösteriyor",
     "example": "Örnek SMART ölçümü / 2 TB harici NVMe",
     "features": "Bağlı tüm sürücüler tek bir menüde.",

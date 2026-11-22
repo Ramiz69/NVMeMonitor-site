@@ -26,8 +26,8 @@
   <link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/">
   <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/">
   <link rel="icon" type="image/png" href="/assets/icon.png">
-  <script src="/assets/releases/preferences.214bd708e36203cc.js"></script>
-  <link rel="stylesheet" href="/assets/releases/site.047030fc00fc3085.css">
+  <script src="/assets/releases/preferences.ed91cb380066cac9.js"></script>
+  <link rel="stylesheet" href="/assets/releases/site.fd20e840d6c0fe31.css">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NVMe Monitor">
   <meta property="og:url" content="https://nvmemonitor.app/">
@@ -40,76 +40,78 @@
   <meta name="twitter:card" content="summary_large_image">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"NVMe Monitor","url":"https://nvmemonitor.app/","inLanguage":"en","applicationCategory":"UtilitiesApplication","operatingSystem":"macOS 27+","description":"See external NVMe SSD temperature and SMART health in your Mac menu bar. Monitor compatible drives, set local alerts, and read temperature in Shortcuts.","image":"https://nvmemonitor.app/assets/social.jpg"}</script>
 </head>
-<body>
+<body class="page-home">
   <a class="skip" href="#main">Skip to content</a>
   <header class="bar masthead">
-    <a class="brand" href="/"><img src="/assets/icon.png" alt="" width="36" height="36"> NVMe Monitor</a>
-    <nav aria-label="Main navigation"><a class="desktop-link" href="#compatibility">Compatibility</a><a href="/support/">Support</a><a href="/privacy/" class="desktop-link">Privacy</a><a href="/press/" class="desktop-link">Press Kit</a></nav>
-    <div class="site-controls">
-      <details class="languages">
-        <summary aria-label="Language: English">English</summary>
-        <ul><li><a href="/" lang="en" hreflang="en" dir="auto" aria-current="page">English</a></li><li><a href="/ar/" lang="ar" hreflang="ar" dir="auto">العربية</a></li><li><a href="/de/" lang="de" hreflang="de" dir="auto">Deutsch</a></li><li><a href="/es/" lang="es" hreflang="es" dir="auto">Español</a></li><li><a href="/fr/" lang="fr" hreflang="fr" dir="auto">Français</a></li><li><a href="/hi/" lang="hi" hreflang="hi" dir="auto">हिन्दी</a></li><li><a href="/id/" lang="id" hreflang="id" dir="auto">Bahasa Indonesia</a></li><li><a href="/it/" lang="it" hreflang="it" dir="auto">Italiano</a></li><li><a href="/ja/" lang="ja" hreflang="ja" dir="auto">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko" dir="auto">한국어</a></li><li><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" dir="auto">Português (Brasil)</a></li><li><a href="/ru/" lang="ru" hreflang="ru" dir="auto">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr" dir="auto">Türkçe</a></li><li><a href="/uk/" lang="uk" hreflang="uk" dir="auto">Українська</a></li><li><a href="/vi/" lang="vi" hreflang="vi" dir="auto">Tiếng Việt</a></li><li><a href="/zh-hans/" lang="zh-Hans" hreflang="zh-Hans" dir="auto">简体中文</a></li><li><a href="/zh-hant/" lang="zh-Hant" hreflang="zh-Hant" dir="auto">繁體中文</a></li></ul>
-      </details>
-      <label class="theme-control" hidden>
-        <span class="sr-only">Appearance</span>
-        <select id="theme" aria-label="Appearance">
-          <option value="system">System</option>
-          <option value="light">Light</option>
-          <option value="dark">Dark</option>
-        </select>
-      </label>
+    <a class="brand" href="/"><img src="/assets/icon.png" alt="" width="34" height="34"> NVMe Monitor</a>
+    <button type="button" class="mobile-toggle" aria-controls="masthead-content" aria-expanded="false" hidden><span>Menu</span><span class="glyph glyph-menu" aria-hidden="true"></span><span class="glyph glyph-close" aria-hidden="true"></span></button>
+    <div class="masthead-content" id="masthead-content">
+      <nav aria-label="Main navigation"><a class="desktop-link" href="#compatibility">Compatibility</a><a href="/support/">Support</a><a href="/privacy/" class="desktop-link">Privacy</a><a href="/press/" class="desktop-link">Press Kit</a></nav>
+      <div class="site-controls"><div class="control control-language">
+        <span class="control-caption" id="language-label">Language</span>
+        <details class="dropdown" id="language">
+          <summary class="dropdown-trigger" aria-labelledby="language-label language-value">
+            <span id="language-value" class="dropdown-value">English</span><span class="glyph glyph-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-options"><li><a href="/" lang="en" hreflang="en" dir="auto" aria-current="page">English</a></li><li><a href="/ar/" lang="ar" hreflang="ar" dir="auto">العربية</a></li><li><a href="/de/" lang="de" hreflang="de" dir="auto">Deutsch</a></li><li><a href="/es/" lang="es" hreflang="es" dir="auto">Español</a></li><li><a href="/fr/" lang="fr" hreflang="fr" dir="auto">Français</a></li><li><a href="/hi/" lang="hi" hreflang="hi" dir="auto">हिन्दी</a></li><li><a href="/id/" lang="id" hreflang="id" dir="auto">Bahasa Indonesia</a></li><li><a href="/it/" lang="it" hreflang="it" dir="auto">Italiano</a></li><li><a href="/ja/" lang="ja" hreflang="ja" dir="auto">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko" dir="auto">한국어</a></li><li><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" dir="auto">Português (Brasil)</a></li><li><a href="/ru/" lang="ru" hreflang="ru" dir="auto">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr" dir="auto">Türkçe</a></li><li><a href="/uk/" lang="uk" hreflang="uk" dir="auto">Українська</a></li><li><a href="/vi/" lang="vi" hreflang="vi" dir="auto">Tiếng Việt</a></li><li><a href="/zh-hans/" lang="zh-Hans" hreflang="zh-Hans" dir="auto">简体中文</a></li><li><a href="/zh-hant/" lang="zh-Hant" hreflang="zh-Hant" dir="auto">繁體中文</a></li></ul>
+        </details>
+      </div><div class="control control-theme" hidden>
+        <span class="control-caption" id="theme-label">Appearance</span>
+        <details class="dropdown" id="theme">
+          <summary class="dropdown-trigger" aria-labelledby="theme-label theme-value">
+            <span id="theme-value" class="dropdown-value">System</span><span class="glyph glyph-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-options"><li><button type="button" dir="auto" data-value="system" aria-pressed="true">System</button></li><li><button type="button" dir="auto" data-value="light" aria-pressed="false">Light</button></li><li><button type="button" dir="auto" data-value="dark" aria-pressed="false">Dark</button></li></ul>
+        </details>
+      </div></div>
     </div>
   </header>
   <main id="main">
     <section class="hero">
       <div class="hero-copy">
-        <h1>Know how hot your SSD runs.</h1>
+        <h1><span>Know how hot</span> <span>your SSD runs.</span></h1>
         <p class="intro">See temperature and SMART health for your external NVMe drives, right in the Mac menu bar.</p>
         <div class="hero-actions">
-          <a class="button" href="#compatibility">Check compatibility</a>
           <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
+          <a class="button" href="#compatibility">Check compatibility</a>
         </div>
         <p class="hero-requirement">macOS 27 or later.</p>
       </div>
       <div class="product-stage">
         <div class="stage-toolbar">
-          <span class="stage-title"><img src="/assets/icon.png" alt="" width="24" height="24"> NVMe Monitor</span>
-          <label class="temperature-control" hidden>
-            <span>Temperature unit</span>
-            <select id="temperature-unit" aria-label="Temperature unit">
-              <option value="celsius">Celsius (°C)</option>
-              <option value="fahrenheit">Fahrenheit (°F)</option>
-            </select>
-          </label>
+          <span class="stage-title">App preview</span>
+          <div class="control control-temperature-unit" hidden>
+        <span class="control-caption" id="temperature-unit-label">Temperature unit</span>
+        <details class="dropdown" id="temperature-unit">
+          <summary class="dropdown-trigger" aria-labelledby="temperature-unit-label temperature-unit-value">
+            <span id="temperature-unit-value" class="dropdown-value">Celsius (°C)</span><span class="glyph glyph-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-options"><li><button type="button" dir="auto" data-value="celsius" aria-pressed="true">Celsius (°C)</button></li><li><button type="button" dir="auto" data-value="fahrenheit" aria-pressed="false">Fahrenheit (°F)</button></li></ul>
+        </details>
+      </div>
         </div>
-        <div class="stage-content">
-          <figure class="stage-settings">
-            <img src="/press/nvme-monitor-settings.webp" width="640" height="417" loading="lazy" decoding="async" alt="Settings for menu bar drive, refresh interval and temperature unit">
-          </figure>
-          <figure class="hero-image">
-            <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor shows a connected external SSD, its composite and sensor temperatures, and SMART readings">
-            <figcaption>Example SMART reading / 2 TB external NVMe</figcaption>
-          </figure>
-        </div>
+        <figure class="hero-image">
+          <div class="preview-art"><img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor shows a connected external SSD, its composite and sensor temperatures, and SMART readings"></div>
+          <figcaption>Sample SMART readings</figcaption>
+        </figure>
       </div>
     </section>
     <section class="features" aria-labelledby="features">
-      <h2 id="features">One menu for every connected drive.</h2>
-      <div class="columns"><div><h3>Temperature</h3><p>See the composite temperature and additional sensors your drive reports.</p></div><div><h3>SMART health</h3><p>Check wear, spare capacity, power-on hours and media errors in one place.</p></div><div><h3>Local alerts</h3><p>Set a heat threshold and get a notification when a drive reports a warning.</p></div></div>
+      <h2 id="features">What you can monitor</h2>
+      <div class="columns"><div><span class="glyph glyph-temperature" aria-hidden="true"></span><h3>Temperature in the menu bar</h3><p>See the current reading in °C or °F while you work.</p></div><div><span class="glyph glyph-smart" aria-hidden="true"></span><h3>SMART health at a glance</h3><p>Check drive wear, media errors and sensor readings.</p></div><div><span class="glyph glyph-alerts" aria-hidden="true"></span><h3>Local alerts</h3><p>Get notified when a drive overheats or reports a critical warning.</p></div></div>
     </section>
     <section class="compatibility" id="compatibility" aria-labelledby="compatibility-title">
       <div class="compatibility-layout">
-        <div><h2 id="compatibility-title">Will it read my drive?</h2></div>
+        <div><h2 id="compatibility-title">Will it work with my SSD?</h2></div>
         <div class="requirements">
-          <dl><div><dt>Mac</dt><dd>macOS 27 or later.</dd></div><div><dt>Drive</dt><dd>External NVMe SSD.</dd></div><div><dt>Enclosure</dt><dd>Thunderbolt or USB4 with native NVMe access. SMART availability depends on the enclosure.</dd></div></dl>
-          <a href="/support/#missing-drive">Why is my drive missing?</a>
+          <dl><div><dt>Mac</dt><dd>macOS 27 or later.</dd></div><div><dt>Drive</dt><dd>An external NVMe SSD.</dd></div><div><dt>Connection</dt><dd>The enclosure must expose NVMe SMART data to macOS.</dd></div></dl>
+          <a href="/support/#missing-drive">Drive missing? Get help</a>
         </div>
       </div>
     </section>
   </main>
   <footer class="bar footer">
-    <div><a class="footer-name" href="/">NVMe Monitor</a><p>Runs locally on your Mac. No account required.</p></div>
-    <div><p>Get Drive Temperature in Shortcuts</p><a href="mailto:support@nvmemonitor.app">support@nvmemonitor.app</a></div>
+    <div><a class="footer-name" href="/">NVMe Monitor</a></div>
     <nav aria-label="Footer"><a href="/" aria-current="page">Overview</a><a href="/support/">Support</a><a href="/privacy/">Privacy</a><a href="/press/">Press Kit</a></nav>
   </footer>
 </body>

@@ -26,8 +26,8 @@
   <link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/">
   <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/">
   <link rel="icon" type="image/png" href="/assets/icon.png">
-  <script src="/assets/releases/preferences.214bd708e36203cc.js"></script>
-  <link rel="stylesheet" href="/assets/releases/site.047030fc00fc3085.css">
+  <script src="/assets/releases/preferences.ed91cb380066cac9.js"></script>
+  <link rel="stylesheet" href="/assets/releases/site.fd20e840d6c0fe31.css">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NVMe Monitor">
   <meta property="og:url" content="https://nvmemonitor.app/id/">
@@ -40,62 +40,65 @@
   <meta name="twitter:card" content="summary_large_image">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"NVMe Monitor","url":"https://nvmemonitor.app/id/","inLanguage":"id","applicationCategory":"UtilitiesApplication","operatingSystem":"macOS 27+","description":"Lihat suhu SSD NVMe eksternal dan status SMART di bar menu Mac. Pantau drive yang kompatibel, atur peringatan lokal, dan baca suhu melalui Pintasan.","image":"https://nvmemonitor.app/assets/social.jpg"}</script>
 </head>
-<body>
+<body class="page-home">
   <a class="skip" href="#main">Lewati ke konten</a>
   <header class="bar masthead">
-    <a class="brand" href="/id/"><img src="/assets/icon.png" alt="" width="36" height="36"> NVMe Monitor</a>
-    <nav aria-label="Navigasi utama"><a class="desktop-link" href="#compatibility">Kompatibilitas</a><a href="/id/support/">Dukungan</a><a href="/id/privacy/" class="desktop-link">Privasi</a><a href="/id/press/" class="desktop-link">Kit pers</a></nav>
-    <div class="site-controls">
-      <details class="languages">
-        <summary aria-label="Bahasa: Bahasa Indonesia">Bahasa Indonesia</summary>
-        <ul><li><a href="/" lang="en" hreflang="en" dir="auto">English</a></li><li><a href="/ar/" lang="ar" hreflang="ar" dir="auto">العربية</a></li><li><a href="/de/" lang="de" hreflang="de" dir="auto">Deutsch</a></li><li><a href="/es/" lang="es" hreflang="es" dir="auto">Español</a></li><li><a href="/fr/" lang="fr" hreflang="fr" dir="auto">Français</a></li><li><a href="/hi/" lang="hi" hreflang="hi" dir="auto">हिन्दी</a></li><li><a href="/id/" lang="id" hreflang="id" dir="auto" aria-current="page">Bahasa Indonesia</a></li><li><a href="/it/" lang="it" hreflang="it" dir="auto">Italiano</a></li><li><a href="/ja/" lang="ja" hreflang="ja" dir="auto">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko" dir="auto">한국어</a></li><li><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" dir="auto">Português (Brasil)</a></li><li><a href="/ru/" lang="ru" hreflang="ru" dir="auto">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr" dir="auto">Türkçe</a></li><li><a href="/uk/" lang="uk" hreflang="uk" dir="auto">Українська</a></li><li><a href="/vi/" lang="vi" hreflang="vi" dir="auto">Tiếng Việt</a></li><li><a href="/zh-hans/" lang="zh-Hans" hreflang="zh-Hans" dir="auto">简体中文</a></li><li><a href="/zh-hant/" lang="zh-Hant" hreflang="zh-Hant" dir="auto">繁體中文</a></li></ul>
-      </details>
-      <label class="theme-control" hidden>
-        <span class="sr-only">Tampilan</span>
-        <select id="theme" aria-label="Tampilan">
-          <option value="system">Ikuti sistem</option>
-          <option value="light">Terang</option>
-          <option value="dark">Gelap</option>
-        </select>
-      </label>
+    <a class="brand" href="/id/"><img src="/assets/icon.png" alt="" width="34" height="34"> NVMe Monitor</a>
+    <button type="button" class="mobile-toggle" aria-controls="masthead-content" aria-expanded="false" hidden><span>Menu</span><span class="glyph glyph-menu" aria-hidden="true"></span><span class="glyph glyph-close" aria-hidden="true"></span></button>
+    <div class="masthead-content" id="masthead-content">
+      <nav aria-label="Navigasi utama"><a class="desktop-link" href="#compatibility">Kompatibilitas</a><a href="/id/support/">Dukungan</a><a href="/id/privacy/" class="desktop-link">Privasi</a><a href="/id/press/" class="desktop-link">Kit pers</a></nav>
+      <div class="site-controls"><div class="control control-language">
+        <span class="control-caption" id="language-label">Bahasa</span>
+        <details class="dropdown" id="language">
+          <summary class="dropdown-trigger" aria-labelledby="language-label language-value">
+            <span id="language-value" class="dropdown-value">Bahasa Indonesia</span><span class="glyph glyph-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-options"><li><a href="/" lang="en" hreflang="en" dir="auto">English</a></li><li><a href="/ar/" lang="ar" hreflang="ar" dir="auto">العربية</a></li><li><a href="/de/" lang="de" hreflang="de" dir="auto">Deutsch</a></li><li><a href="/es/" lang="es" hreflang="es" dir="auto">Español</a></li><li><a href="/fr/" lang="fr" hreflang="fr" dir="auto">Français</a></li><li><a href="/hi/" lang="hi" hreflang="hi" dir="auto">हिन्दी</a></li><li><a href="/id/" lang="id" hreflang="id" dir="auto" aria-current="page">Bahasa Indonesia</a></li><li><a href="/it/" lang="it" hreflang="it" dir="auto">Italiano</a></li><li><a href="/ja/" lang="ja" hreflang="ja" dir="auto">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko" dir="auto">한국어</a></li><li><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" dir="auto">Português (Brasil)</a></li><li><a href="/ru/" lang="ru" hreflang="ru" dir="auto">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr" dir="auto">Türkçe</a></li><li><a href="/uk/" lang="uk" hreflang="uk" dir="auto">Українська</a></li><li><a href="/vi/" lang="vi" hreflang="vi" dir="auto">Tiếng Việt</a></li><li><a href="/zh-hans/" lang="zh-Hans" hreflang="zh-Hans" dir="auto">简体中文</a></li><li><a href="/zh-hant/" lang="zh-Hant" hreflang="zh-Hant" dir="auto">繁體中文</a></li></ul>
+        </details>
+      </div><div class="control control-theme" hidden>
+        <span class="control-caption" id="theme-label">Tampilan</span>
+        <details class="dropdown" id="theme">
+          <summary class="dropdown-trigger" aria-labelledby="theme-label theme-value">
+            <span id="theme-value" class="dropdown-value">Ikuti sistem</span><span class="glyph glyph-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-options"><li><button type="button" dir="auto" data-value="system" aria-pressed="true">Ikuti sistem</button></li><li><button type="button" dir="auto" data-value="light" aria-pressed="false">Terang</button></li><li><button type="button" dir="auto" data-value="dark" aria-pressed="false">Gelap</button></li></ul>
+        </details>
+      </div></div>
     </div>
   </header>
   <main id="main">
     <section class="hero">
       <div class="hero-copy">
-        <h1>Seberapa panas SSD Anda? Lihat sekilas di bar menu.</h1>
+        <h1><span>Seberapa panas SSD Anda?</span> <span>Lihat sekilas di bar menu.</span></h1>
         <p class="intro">Lihat suhu dan status SMART drive NVMe eksternal langsung di bar menu Mac.</p>
         <div class="hero-actions">
-          <a class="button" href="#compatibility">Periksa kompatibilitas</a>
           <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
+          <a class="button" href="#compatibility">Periksa kompatibilitas</a>
         </div>
         <p class="hero-requirement">macOS 27 atau yang lebih baru.</p>
       </div>
       <div class="product-stage">
         <div class="stage-toolbar">
-          <span class="stage-title"><img src="/assets/icon.png" alt="" width="24" height="24"> NVMe Monitor</span>
-          <label class="temperature-control" hidden>
-            <span>Satuan suhu</span>
-            <select id="temperature-unit" aria-label="Satuan suhu">
-              <option value="celsius">Celsius (°C)</option>
-              <option value="fahrenheit">Fahrenheit (°F)</option>
-            </select>
-          </label>
+          <span class="stage-title">Pratinjau aplikasi</span>
+          <div class="control control-temperature-unit" hidden>
+        <span class="control-caption" id="temperature-unit-label">Satuan suhu</span>
+        <details class="dropdown" id="temperature-unit">
+          <summary class="dropdown-trigger" aria-labelledby="temperature-unit-label temperature-unit-value">
+            <span id="temperature-unit-value" class="dropdown-value">Celsius (°C)</span><span class="glyph glyph-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-options"><li><button type="button" dir="auto" data-value="celsius" aria-pressed="true">Celsius (°C)</button></li><li><button type="button" dir="auto" data-value="fahrenheit" aria-pressed="false">Fahrenheit (°F)</button></li></ul>
+        </details>
+      </div>
         </div>
-        <div class="stage-content">
-          <figure class="stage-settings">
-            <img src="/press/nvme-monitor-settings.webp" width="640" height="417" loading="lazy" decoding="async" alt="Pengaturan drive di bar menu, interval penyegaran, dan satuan suhu">
-          </figure>
-          <figure class="hero-image">
-            <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor menampilkan SSD eksternal yang terhubung, suhu gabungan, suhu tiap sensor, dan data SMART">
-            <figcaption>Contoh pembacaan SMART / NVMe eksternal 2 TB</figcaption>
-          </figure>
-        </div>
+        <figure class="hero-image">
+          <div class="preview-art"><img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor menampilkan SSD eksternal yang terhubung, suhu gabungan, suhu tiap sensor, dan data SMART"></div>
+          <figcaption>Contoh pembacaan SMART / NVMe eksternal 2 TB</figcaption>
+        </figure>
       </div>
     </section>
     <section class="features" aria-labelledby="features">
       <h2 id="features">Satu menu untuk semua drive yang terhubung.</h2>
-      <div class="columns"><div><h3>Suhu</h3><p>Lihat suhu gabungan dan pembacaan sensor tambahan yang dilaporkan drive.</p></div><div><h3>Status SMART</h3><p>Periksa tingkat keausan, kapasitas cadangan, jam menyala, dan kesalahan media di satu tempat.</p></div><div><h3>Peringatan lokal</h3><p>Tentukan ambang suhu dan terima notifikasi saat drive melaporkan peringatan.</p></div></div>
+      <div class="columns"><div><span class="glyph glyph-temperature" aria-hidden="true"></span><h3>Suhu</h3><p>Lihat suhu gabungan dan pembacaan sensor tambahan yang dilaporkan drive.</p></div><div><span class="glyph glyph-smart" aria-hidden="true"></span><h3>Status SMART</h3><p>Periksa tingkat keausan, kapasitas cadangan, jam menyala, dan kesalahan media di satu tempat.</p></div><div><span class="glyph glyph-alerts" aria-hidden="true"></span><h3>Peringatan lokal</h3><p>Tentukan ambang suhu dan terima notifikasi saat drive melaporkan peringatan.</p></div></div>
     </section>
     <section class="compatibility" id="compatibility" aria-labelledby="compatibility-title">
       <div class="compatibility-layout">
@@ -108,8 +111,7 @@
     </section>
   </main>
   <footer class="bar footer">
-    <div><a class="footer-name" href="/id/">NVMe Monitor</a><p>Berjalan secara lokal di Mac Anda. Tidak perlu akun.</p></div>
-    <div><p>Ambil Suhu Drive di Pintasan</p><a href="mailto:support@nvmemonitor.app">support@nvmemonitor.app</a></div>
+    <div><a class="footer-name" href="/id/">NVMe Monitor</a></div>
     <nav aria-label="Bagian bawah halaman"><a href="/id/" aria-current="page">Ikhtisar</a><a href="/id/support/">Dukungan</a><a href="/id/privacy/">Privasi</a><a href="/id/press/">Kit pers</a></nav>
   </footer>
 </body>

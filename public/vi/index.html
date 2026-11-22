@@ -26,8 +26,8 @@
   <link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/">
   <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/">
   <link rel="icon" type="image/png" href="/assets/icon.png">
-  <script src="/assets/releases/preferences.214bd708e36203cc.js"></script>
-  <link rel="stylesheet" href="/assets/releases/site.047030fc00fc3085.css">
+  <script src="/assets/releases/preferences.ed91cb380066cac9.js"></script>
+  <link rel="stylesheet" href="/assets/releases/site.fd20e840d6c0fe31.css">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NVMe Monitor">
   <meta property="og:url" content="https://nvmemonitor.app/vi/">
@@ -40,62 +40,65 @@
   <meta name="twitter:card" content="summary_large_image">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"NVMe Monitor","url":"https://nvmemonitor.app/vi/","inLanguage":"vi","applicationCategory":"UtilitiesApplication","operatingSystem":"macOS 27+","description":"Xem nhiệt độ và tình trạng SMART của SSD NVMe ngoài ngay trên thanh menu của Mac. Theo dõi ổ đĩa tương thích, đặt cảnh báo cục bộ và đọc nhiệt độ trong Phím tắt.","image":"https://nvmemonitor.app/assets/social.jpg"}</script>
 </head>
-<body>
+<body class="page-home">
   <a class="skip" href="#main">Chuyển đến nội dung</a>
   <header class="bar masthead">
-    <a class="brand" href="/vi/"><img src="/assets/icon.png" alt="" width="36" height="36"> NVMe Monitor</a>
-    <nav aria-label="Điều hướng chính"><a class="desktop-link" href="#compatibility">Khả năng tương thích</a><a href="/vi/support/">Hỗ trợ</a><a href="/vi/privacy/" class="desktop-link">Quyền riêng tư</a><a href="/vi/press/" class="desktop-link">Bộ tài liệu báo chí</a></nav>
-    <div class="site-controls">
-      <details class="languages">
-        <summary aria-label="Ngôn ngữ: Tiếng Việt">Tiếng Việt</summary>
-        <ul><li><a href="/" lang="en" hreflang="en" dir="auto">English</a></li><li><a href="/ar/" lang="ar" hreflang="ar" dir="auto">العربية</a></li><li><a href="/de/" lang="de" hreflang="de" dir="auto">Deutsch</a></li><li><a href="/es/" lang="es" hreflang="es" dir="auto">Español</a></li><li><a href="/fr/" lang="fr" hreflang="fr" dir="auto">Français</a></li><li><a href="/hi/" lang="hi" hreflang="hi" dir="auto">हिन्दी</a></li><li><a href="/id/" lang="id" hreflang="id" dir="auto">Bahasa Indonesia</a></li><li><a href="/it/" lang="it" hreflang="it" dir="auto">Italiano</a></li><li><a href="/ja/" lang="ja" hreflang="ja" dir="auto">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko" dir="auto">한국어</a></li><li><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" dir="auto">Português (Brasil)</a></li><li><a href="/ru/" lang="ru" hreflang="ru" dir="auto">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr" dir="auto">Türkçe</a></li><li><a href="/uk/" lang="uk" hreflang="uk" dir="auto">Українська</a></li><li><a href="/vi/" lang="vi" hreflang="vi" dir="auto" aria-current="page">Tiếng Việt</a></li><li><a href="/zh-hans/" lang="zh-Hans" hreflang="zh-Hans" dir="auto">简体中文</a></li><li><a href="/zh-hant/" lang="zh-Hant" hreflang="zh-Hant" dir="auto">繁體中文</a></li></ul>
-      </details>
-      <label class="theme-control" hidden>
-        <span class="sr-only">Giao diện</span>
-        <select id="theme" aria-label="Giao diện">
-          <option value="system">Theo hệ thống</option>
-          <option value="light">Sáng</option>
-          <option value="dark">Tối</option>
-        </select>
-      </label>
+    <a class="brand" href="/vi/"><img src="/assets/icon.png" alt="" width="34" height="34"> NVMe Monitor</a>
+    <button type="button" class="mobile-toggle" aria-controls="masthead-content" aria-expanded="false" hidden><span>Menu</span><span class="glyph glyph-menu" aria-hidden="true"></span><span class="glyph glyph-close" aria-hidden="true"></span></button>
+    <div class="masthead-content" id="masthead-content">
+      <nav aria-label="Điều hướng chính"><a class="desktop-link" href="#compatibility">Khả năng tương thích</a><a href="/vi/support/">Hỗ trợ</a><a href="/vi/privacy/" class="desktop-link">Quyền riêng tư</a><a href="/vi/press/" class="desktop-link">Bộ tài liệu báo chí</a></nav>
+      <div class="site-controls"><div class="control control-language">
+        <span class="control-caption" id="language-label">Ngôn ngữ</span>
+        <details class="dropdown" id="language">
+          <summary class="dropdown-trigger" aria-labelledby="language-label language-value">
+            <span id="language-value" class="dropdown-value">Tiếng Việt</span><span class="glyph glyph-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-options"><li><a href="/" lang="en" hreflang="en" dir="auto">English</a></li><li><a href="/ar/" lang="ar" hreflang="ar" dir="auto">العربية</a></li><li><a href="/de/" lang="de" hreflang="de" dir="auto">Deutsch</a></li><li><a href="/es/" lang="es" hreflang="es" dir="auto">Español</a></li><li><a href="/fr/" lang="fr" hreflang="fr" dir="auto">Français</a></li><li><a href="/hi/" lang="hi" hreflang="hi" dir="auto">हिन्दी</a></li><li><a href="/id/" lang="id" hreflang="id" dir="auto">Bahasa Indonesia</a></li><li><a href="/it/" lang="it" hreflang="it" dir="auto">Italiano</a></li><li><a href="/ja/" lang="ja" hreflang="ja" dir="auto">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko" dir="auto">한국어</a></li><li><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" dir="auto">Português (Brasil)</a></li><li><a href="/ru/" lang="ru" hreflang="ru" dir="auto">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr" dir="auto">Türkçe</a></li><li><a href="/uk/" lang="uk" hreflang="uk" dir="auto">Українська</a></li><li><a href="/vi/" lang="vi" hreflang="vi" dir="auto" aria-current="page">Tiếng Việt</a></li><li><a href="/zh-hans/" lang="zh-Hans" hreflang="zh-Hans" dir="auto">简体中文</a></li><li><a href="/zh-hant/" lang="zh-Hant" hreflang="zh-Hant" dir="auto">繁體中文</a></li></ul>
+        </details>
+      </div><div class="control control-theme" hidden>
+        <span class="control-caption" id="theme-label">Giao diện</span>
+        <details class="dropdown" id="theme">
+          <summary class="dropdown-trigger" aria-labelledby="theme-label theme-value">
+            <span id="theme-value" class="dropdown-value">Theo hệ thống</span><span class="glyph glyph-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-options"><li><button type="button" dir="auto" data-value="system" aria-pressed="true">Theo hệ thống</button></li><li><button type="button" dir="auto" data-value="light" aria-pressed="false">Sáng</button></li><li><button type="button" dir="auto" data-value="dark" aria-pressed="false">Tối</button></li></ul>
+        </details>
+      </div></div>
     </div>
   </header>
   <main id="main">
     <section class="hero">
       <div class="hero-copy">
-        <h1>Ổ SSD đang nóng đến đâu? Xem ngay trên thanh menu.</h1>
+        <h1><span>Ổ SSD đang nóng đến đâu?</span> <span>Xem ngay trên thanh menu.</span></h1>
         <p class="intro">Xem nhiệt độ và tình trạng SMART của ổ NVMe ngoài ngay trên thanh menu của Mac.</p>
         <div class="hero-actions">
-          <a class="button" href="#compatibility">Kiểm tra khả năng tương thích</a>
           <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
+          <a class="button" href="#compatibility">Kiểm tra khả năng tương thích</a>
         </div>
         <p class="hero-requirement">macOS 27 trở lên.</p>
       </div>
       <div class="product-stage">
         <div class="stage-toolbar">
-          <span class="stage-title"><img src="/assets/icon.png" alt="" width="24" height="24"> NVMe Monitor</span>
-          <label class="temperature-control" hidden>
-            <span>Đơn vị nhiệt độ</span>
-            <select id="temperature-unit" aria-label="Đơn vị nhiệt độ">
-              <option value="celsius">Độ C (°C)</option>
-              <option value="fahrenheit">Độ F (°F)</option>
-            </select>
-          </label>
+          <span class="stage-title">Xem trước ứng dụng</span>
+          <div class="control control-temperature-unit" hidden>
+        <span class="control-caption" id="temperature-unit-label">Đơn vị nhiệt độ</span>
+        <details class="dropdown" id="temperature-unit">
+          <summary class="dropdown-trigger" aria-labelledby="temperature-unit-label temperature-unit-value">
+            <span id="temperature-unit-value" class="dropdown-value">Độ C (°C)</span><span class="glyph glyph-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-options"><li><button type="button" dir="auto" data-value="celsius" aria-pressed="true">Độ C (°C)</button></li><li><button type="button" dir="auto" data-value="fahrenheit" aria-pressed="false">Độ F (°F)</button></li></ul>
+        </details>
+      </div>
         </div>
-        <div class="stage-content">
-          <figure class="stage-settings">
-            <img src="/press/nvme-monitor-settings.webp" width="640" height="417" loading="lazy" decoding="async" alt="Cài đặt ổ đĩa trên thanh menu, khoảng thời gian cập nhật và đơn vị nhiệt độ">
-          </figure>
-          <figure class="hero-image">
-            <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor hiển thị SSD ngoài đang kết nối cùng nhiệt độ tổng hợp, nhiệt độ từng cảm biến và các chỉ số SMART">
-            <figcaption>Ví dụ chỉ số SMART / NVMe ngoài 2 TB</figcaption>
-          </figure>
-        </div>
+        <figure class="hero-image">
+          <div class="preview-art"><img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor hiển thị SSD ngoài đang kết nối cùng nhiệt độ tổng hợp, nhiệt độ từng cảm biến và các chỉ số SMART"></div>
+          <figcaption>Ví dụ chỉ số SMART / NVMe ngoài 2 TB</figcaption>
+        </figure>
       </div>
     </section>
     <section class="features" aria-labelledby="features">
       <h2 id="features">Một menu cho mọi ổ đĩa đang kết nối.</h2>
-      <div class="columns"><div><h3>Nhiệt độ</h3><p>Xem nhiệt độ tổng hợp và số đo từ các cảm biến khác mà ổ đĩa báo về.</p></div><div><h3>Tình trạng SMART</h3><p>Xem mức hao mòn, dung lượng dự phòng, số giờ hoạt động và lỗi phương tiện lưu trữ ở cùng một nơi.</p></div><div><h3>Cảnh báo cục bộ</h3><p>Đặt ngưỡng nhiệt độ và nhận thông báo khi ổ đĩa phát cảnh báo.</p></div></div>
+      <div class="columns"><div><span class="glyph glyph-temperature" aria-hidden="true"></span><h3>Nhiệt độ</h3><p>Xem nhiệt độ tổng hợp và số đo từ các cảm biến khác mà ổ đĩa báo về.</p></div><div><span class="glyph glyph-smart" aria-hidden="true"></span><h3>Tình trạng SMART</h3><p>Xem mức hao mòn, dung lượng dự phòng, số giờ hoạt động và lỗi phương tiện lưu trữ ở cùng một nơi.</p></div><div><span class="glyph glyph-alerts" aria-hidden="true"></span><h3>Cảnh báo cục bộ</h3><p>Đặt ngưỡng nhiệt độ và nhận thông báo khi ổ đĩa phát cảnh báo.</p></div></div>
     </section>
     <section class="compatibility" id="compatibility" aria-labelledby="compatibility-title">
       <div class="compatibility-layout">
@@ -108,8 +111,7 @@
     </section>
   </main>
   <footer class="bar footer">
-    <div><a class="footer-name" href="/vi/">NVMe Monitor</a><p>Chạy ngay trên máy Mac. Không cần tài khoản.</p></div>
-    <div><p>Lấy nhiệt độ ổ đĩa trong Phím tắt</p><a href="mailto:support@nvmemonitor.app">support@nvmemonitor.app</a></div>
+    <div><a class="footer-name" href="/vi/">NVMe Monitor</a></div>
     <nav aria-label="Chân trang"><a href="/vi/" aria-current="page">Tổng quan</a><a href="/vi/support/">Hỗ trợ</a><a href="/vi/privacy/">Quyền riêng tư</a><a href="/vi/press/">Bộ tài liệu báo chí</a></nav>
   </footer>
 </body>

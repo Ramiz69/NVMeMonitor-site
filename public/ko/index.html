@@ -26,8 +26,8 @@
   <link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/">
   <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/">
   <link rel="icon" type="image/png" href="/assets/icon.png">
-  <script src="/assets/releases/preferences.214bd708e36203cc.js"></script>
-  <link rel="stylesheet" href="/assets/releases/site.047030fc00fc3085.css">
+  <script src="/assets/releases/preferences.ed91cb380066cac9.js"></script>
+  <link rel="stylesheet" href="/assets/releases/site.fd20e840d6c0fe31.css">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NVMe Monitor">
   <meta property="og:url" content="https://nvmemonitor.app/ko/">
@@ -40,62 +40,65 @@
   <meta name="twitter:card" content="summary_large_image">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"NVMe Monitor","url":"https://nvmemonitor.app/ko/","inLanguage":"ko","applicationCategory":"UtilitiesApplication","operatingSystem":"macOS 27+","description":"Mac 메뉴 막대에서 외장 NVMe SSD 온도와 SMART 상태를 확인하세요. 호환 드라이브를 모니터링하고 알림을 설정하거나 단축어에서 온도를 가져올 수 있습니다.","image":"https://nvmemonitor.app/assets/social.jpg"}</script>
 </head>
-<body>
+<body class="page-home">
   <a class="skip" href="#main">본문으로 건너뛰기</a>
   <header class="bar masthead">
-    <a class="brand" href="/ko/"><img src="/assets/icon.png" alt="" width="36" height="36"> NVMe Monitor</a>
-    <nav aria-label="주 메뉴"><a class="desktop-link" href="#compatibility">호환성</a><a href="/ko/support/">지원</a><a href="/ko/privacy/" class="desktop-link">개인정보 보호</a><a href="/ko/press/" class="desktop-link">프레스 키트</a></nav>
-    <div class="site-controls">
-      <details class="languages">
-        <summary aria-label="언어: 한국어">한국어</summary>
-        <ul><li><a href="/" lang="en" hreflang="en" dir="auto">English</a></li><li><a href="/ar/" lang="ar" hreflang="ar" dir="auto">العربية</a></li><li><a href="/de/" lang="de" hreflang="de" dir="auto">Deutsch</a></li><li><a href="/es/" lang="es" hreflang="es" dir="auto">Español</a></li><li><a href="/fr/" lang="fr" hreflang="fr" dir="auto">Français</a></li><li><a href="/hi/" lang="hi" hreflang="hi" dir="auto">हिन्दी</a></li><li><a href="/id/" lang="id" hreflang="id" dir="auto">Bahasa Indonesia</a></li><li><a href="/it/" lang="it" hreflang="it" dir="auto">Italiano</a></li><li><a href="/ja/" lang="ja" hreflang="ja" dir="auto">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko" dir="auto" aria-current="page">한국어</a></li><li><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" dir="auto">Português (Brasil)</a></li><li><a href="/ru/" lang="ru" hreflang="ru" dir="auto">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr" dir="auto">Türkçe</a></li><li><a href="/uk/" lang="uk" hreflang="uk" dir="auto">Українська</a></li><li><a href="/vi/" lang="vi" hreflang="vi" dir="auto">Tiếng Việt</a></li><li><a href="/zh-hans/" lang="zh-Hans" hreflang="zh-Hans" dir="auto">简体中文</a></li><li><a href="/zh-hant/" lang="zh-Hant" hreflang="zh-Hant" dir="auto">繁體中文</a></li></ul>
-      </details>
-      <label class="theme-control" hidden>
-        <span class="sr-only">화면 모드</span>
-        <select id="theme" aria-label="화면 모드">
-          <option value="system">시스템 설정</option>
-          <option value="light">라이트</option>
-          <option value="dark">다크</option>
-        </select>
-      </label>
+    <a class="brand" href="/ko/"><img src="/assets/icon.png" alt="" width="34" height="34"> NVMe Monitor</a>
+    <button type="button" class="mobile-toggle" aria-controls="masthead-content" aria-expanded="false" hidden><span>메뉴</span><span class="glyph glyph-menu" aria-hidden="true"></span><span class="glyph glyph-close" aria-hidden="true"></span></button>
+    <div class="masthead-content" id="masthead-content">
+      <nav aria-label="주 메뉴"><a class="desktop-link" href="#compatibility">호환성</a><a href="/ko/support/">지원</a><a href="/ko/privacy/" class="desktop-link">개인정보 보호</a><a href="/ko/press/" class="desktop-link">프레스 키트</a></nav>
+      <div class="site-controls"><div class="control control-language">
+        <span class="control-caption" id="language-label">언어</span>
+        <details class="dropdown" id="language">
+          <summary class="dropdown-trigger" aria-labelledby="language-label language-value">
+            <span id="language-value" class="dropdown-value">한국어</span><span class="glyph glyph-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-options"><li><a href="/" lang="en" hreflang="en" dir="auto">English</a></li><li><a href="/ar/" lang="ar" hreflang="ar" dir="auto">العربية</a></li><li><a href="/de/" lang="de" hreflang="de" dir="auto">Deutsch</a></li><li><a href="/es/" lang="es" hreflang="es" dir="auto">Español</a></li><li><a href="/fr/" lang="fr" hreflang="fr" dir="auto">Français</a></li><li><a href="/hi/" lang="hi" hreflang="hi" dir="auto">हिन्दी</a></li><li><a href="/id/" lang="id" hreflang="id" dir="auto">Bahasa Indonesia</a></li><li><a href="/it/" lang="it" hreflang="it" dir="auto">Italiano</a></li><li><a href="/ja/" lang="ja" hreflang="ja" dir="auto">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko" dir="auto" aria-current="page">한국어</a></li><li><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" dir="auto">Português (Brasil)</a></li><li><a href="/ru/" lang="ru" hreflang="ru" dir="auto">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr" dir="auto">Türkçe</a></li><li><a href="/uk/" lang="uk" hreflang="uk" dir="auto">Українська</a></li><li><a href="/vi/" lang="vi" hreflang="vi" dir="auto">Tiếng Việt</a></li><li><a href="/zh-hans/" lang="zh-Hans" hreflang="zh-Hans" dir="auto">简体中文</a></li><li><a href="/zh-hant/" lang="zh-Hant" hreflang="zh-Hant" dir="auto">繁體中文</a></li></ul>
+        </details>
+      </div><div class="control control-theme" hidden>
+        <span class="control-caption" id="theme-label">화면 모드</span>
+        <details class="dropdown" id="theme">
+          <summary class="dropdown-trigger" aria-labelledby="theme-label theme-value">
+            <span id="theme-value" class="dropdown-value">시스템 설정</span><span class="glyph glyph-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-options"><li><button type="button" dir="auto" data-value="system" aria-pressed="true">시스템 설정</button></li><li><button type="button" dir="auto" data-value="light" aria-pressed="false">라이트</button></li><li><button type="button" dir="auto" data-value="dark" aria-pressed="false">다크</button></li></ul>
+        </details>
+      </div></div>
     </div>
   </header>
   <main id="main">
     <section class="hero">
       <div class="hero-copy">
-        <h1>외장 SSD의 온도, 한눈에 확인하세요.</h1>
+        <h1><span>외장 SSD의 온도,</span> <span>한눈에 확인하세요.</span></h1>
         <p class="intro">외장 NVMe 드라이브의 온도와 SMART 상태를 Mac 메뉴 막대에서 바로 확인할 수 있습니다.</p>
         <div class="hero-actions">
-          <a class="button" href="#compatibility">호환성 확인</a>
           <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
+          <a class="button" href="#compatibility">호환성 확인</a>
         </div>
         <p class="hero-requirement">macOS 27 이상.</p>
       </div>
       <div class="product-stage">
         <div class="stage-toolbar">
-          <span class="stage-title"><img src="/assets/icon.png" alt="" width="24" height="24"> NVMe Monitor</span>
-          <label class="temperature-control" hidden>
-            <span>온도 단위</span>
-            <select id="temperature-unit" aria-label="온도 단위">
-              <option value="celsius">섭씨 (°C)</option>
-              <option value="fahrenheit">화씨 (°F)</option>
-            </select>
-          </label>
+          <span class="stage-title">앱 미리보기</span>
+          <div class="control control-temperature-unit" hidden>
+        <span class="control-caption" id="temperature-unit-label">온도 단위</span>
+        <details class="dropdown" id="temperature-unit">
+          <summary class="dropdown-trigger" aria-labelledby="temperature-unit-label temperature-unit-value">
+            <span id="temperature-unit-value" class="dropdown-value">섭씨 (°C)</span><span class="glyph glyph-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-options"><li><button type="button" dir="auto" data-value="celsius" aria-pressed="true">섭씨 (°C)</button></li><li><button type="button" dir="auto" data-value="fahrenheit" aria-pressed="false">화씨 (°F)</button></li></ul>
+        </details>
+      </div>
         </div>
-        <div class="stage-content">
-          <figure class="stage-settings">
-            <img src="/press/nvme-monitor-settings.webp" width="640" height="417" loading="lazy" decoding="async" alt="메뉴 막대에 표시할 드라이브, 새로 고침 간격 및 온도 단위 설정">
-          </figure>
-          <figure class="hero-image">
-            <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor에 연결된 외장 SSD의 종합 온도, 센서별 온도, SMART 측정값이 표시된 화면">
-            <figcaption>SMART 측정 예시 / 2 TB 외장 NVMe SSD</figcaption>
-          </figure>
-        </div>
+        <figure class="hero-image">
+          <div class="preview-art"><img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor에 연결된 외장 SSD의 종합 온도, 센서별 온도, SMART 측정값이 표시된 화면"></div>
+          <figcaption>SMART 측정 예시 / 2 TB 외장 NVMe SSD</figcaption>
+        </figure>
       </div>
     </section>
     <section class="features" aria-labelledby="features">
       <h2 id="features">연결된 드라이브를 하나의 메뉴에서.</h2>
-      <div class="columns"><div><h3>온도</h3><p>드라이브가 보고하는 종합 온도와 개별 센서의 온도를 확인하세요.</p></div><div><h3>SMART 상태</h3><p>마모도, 예비 용량, 전원 켜짐 시간, 미디어 오류를 한곳에서 확인할 수 있습니다.</p></div><div><h3>로컬 알림</h3><p>온도 임계값을 설정하세요. 드라이브가 경고를 보고하면 알림을 받을 수 있습니다.</p></div></div>
+      <div class="columns"><div><span class="glyph glyph-temperature" aria-hidden="true"></span><h3>온도</h3><p>드라이브가 보고하는 종합 온도와 개별 센서의 온도를 확인하세요.</p></div><div><span class="glyph glyph-smart" aria-hidden="true"></span><h3>SMART 상태</h3><p>마모도, 예비 용량, 전원 켜짐 시간, 미디어 오류를 한곳에서 확인할 수 있습니다.</p></div><div><span class="glyph glyph-alerts" aria-hidden="true"></span><h3>로컬 알림</h3><p>온도 임계값을 설정하세요. 드라이브가 경고를 보고하면 알림을 받을 수 있습니다.</p></div></div>
     </section>
     <section class="compatibility" id="compatibility" aria-labelledby="compatibility-title">
       <div class="compatibility-layout">
@@ -108,8 +111,7 @@
     </section>
   </main>
   <footer class="bar footer">
-    <div><a class="footer-name" href="/ko/">NVMe Monitor</a><p>Mac에서 로컬로 실행되며, 계정이 필요하지 않습니다.</p></div>
-    <div><p>단축어에서 ‘드라이브 온도 가져오기’</p><a href="mailto:support@nvmemonitor.app">support@nvmemonitor.app</a></div>
+    <div><a class="footer-name" href="/ko/">NVMe Monitor</a></div>
     <nav aria-label="하단 메뉴"><a href="/ko/" aria-current="page">개요</a><a href="/ko/support/">지원</a><a href="/ko/privacy/">개인정보 보호</a><a href="/ko/press/">프레스 키트</a></nav>
   </footer>
 </body>

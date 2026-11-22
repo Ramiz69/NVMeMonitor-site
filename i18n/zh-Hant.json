@@ -1,6 +1,7 @@
 {
   "ui": {
     "skip": "跳至主要內容",
+    "menu": "選單",
     "mainNav": "主導覽",
     "footerNav": "頁尾",
     "overview": "總覽",
@@ -28,6 +29,7 @@
     "headlineSecond": "一眼就知道。",
     "intro": "直接從 Mac 選單列查看外接 NVMe 磁碟機的溫度與 SMART 狀態。",
     "check": "查看相容性",
+    "preview": "App 預覽",
     "heroAlt": "NVMe Monitor 顯示已連接的外接 SSD、綜合溫度、各感測器讀數及 SMART 資料",
     "example": "SMART 讀數範例 / 2 TB 外接 NVMe SSD",
     "features": "在同一個選單查看所有已連接的磁碟機。",

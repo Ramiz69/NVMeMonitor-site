@@ -10,6 +10,19 @@ Run `python3 -m http.server --directory public 8000` and open http://localhost:8
 
 Appearance and temperature-unit choices are stored in the visitor’s browser. The Celsius and Fahrenheit previews show the same measurement rendered by the native app with neutral drive identification.
 
+To review the Workbench layout with the original Apple badges while keeping the
+pre-release output in `public/` intact, build to a separate local directory.
+Point `NVME_APPLE_BADGES_DIR` at the original badge files described below.
+
+```sh
+NVME_PREVIEW_DIR="$PWD/../workbench-preview" \
+  NVME_APPLE_BADGES_DIR="/path/to/original/apple/badges" \
+  node build.mjs --published-store
+python3 -m http.server --bind 127.0.0.1 --directory ../workbench-preview 8741
+```
+
+Open http://127.0.0.1:8741 to view the isolated preview.
+
 ## Hosting
 
 Connect this repository’s `main` branch in Cloudflare Pages. Use the `public` output directory with no build command. Attach `nvmemonitor.app` as a custom domain. The public support address is configured through the domain’s mail provider.

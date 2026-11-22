@@ -1,6 +1,7 @@
 {
   "ui": {
     "skip": "Zum Inhalt springen",
+    "menu": "Menü",
     "mainNav": "Hauptnavigation",
     "footerNav": "Fußbereich",
     "overview": "Übersicht",
@@ -28,6 +29,7 @@
     "headlineSecond": "deine SSD?",
     "intro": "Behalte Temperatur und SMART-Status deiner externen NVMe-Laufwerke direkt in der Menüleiste deines Mac im Blick.",
     "check": "Kompatibilität prüfen",
+    "preview": "App-Vorschau",
     "heroAlt": "NVMe Monitor zeigt eine angeschlossene externe SSD mit Gesamttemperatur, zusätzlichen Sensortemperaturen und SMART-Daten",
     "example": "Beispiel für SMART-Daten / externe NVMe-SSD mit 2 TB",
     "features": "Ein Menü für alle angeschlossenen Laufwerke.",

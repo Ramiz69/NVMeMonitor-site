@@ -26,8 +26,8 @@
   <link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/">
   <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/">
   <link rel="icon" type="image/png" href="/assets/icon.png">
-  <script src="/assets/releases/preferences.214bd708e36203cc.js"></script>
-  <link rel="stylesheet" href="/assets/releases/site.047030fc00fc3085.css">
+  <script src="/assets/releases/preferences.ed91cb380066cac9.js"></script>
+  <link rel="stylesheet" href="/assets/releases/site.fd20e840d6c0fe31.css">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NVMe Monitor">
   <meta property="og:url" content="https://nvmemonitor.app/pt-br/">
@@ -40,62 +40,65 @@
   <meta name="twitter:card" content="summary_large_image">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"NVMe Monitor","url":"https://nvmemonitor.app/pt-br/","inLanguage":"pt-BR","applicationCategory":"UtilitiesApplication","operatingSystem":"macOS 27+","description":"Veja a temperatura e o status SMART dos SSDs NVMe externos na barra de menus do Mac. Monitore unidades compatíveis, configure alertas locais e consulte a temperatura no app Atalhos.","image":"https://nvmemonitor.app/assets/social.jpg"}</script>
 </head>
-<body>
+<body class="page-home">
   <a class="skip" href="#main">Ir para o conteúdo</a>
   <header class="bar masthead">
-    <a class="brand" href="/pt-br/"><img src="/assets/icon.png" alt="" width="36" height="36"> NVMe Monitor</a>
-    <nav aria-label="Navegação principal"><a class="desktop-link" href="#compatibility">Compatibilidade</a><a href="/pt-br/support/">Suporte</a><a href="/pt-br/privacy/" class="desktop-link">Privacidade</a><a href="/pt-br/press/" class="desktop-link">Kit de imprensa</a></nav>
-    <div class="site-controls">
-      <details class="languages">
-        <summary aria-label="Idioma: Português (Brasil)">Português (Brasil)</summary>
-        <ul><li><a href="/" lang="en" hreflang="en" dir="auto">English</a></li><li><a href="/ar/" lang="ar" hreflang="ar" dir="auto">العربية</a></li><li><a href="/de/" lang="de" hreflang="de" dir="auto">Deutsch</a></li><li><a href="/es/" lang="es" hreflang="es" dir="auto">Español</a></li><li><a href="/fr/" lang="fr" hreflang="fr" dir="auto">Français</a></li><li><a href="/hi/" lang="hi" hreflang="hi" dir="auto">हिन्दी</a></li><li><a href="/id/" lang="id" hreflang="id" dir="auto">Bahasa Indonesia</a></li><li><a href="/it/" lang="it" hreflang="it" dir="auto">Italiano</a></li><li><a href="/ja/" lang="ja" hreflang="ja" dir="auto">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko" dir="auto">한국어</a></li><li><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" dir="auto" aria-current="page">Português (Brasil)</a></li><li><a href="/ru/" lang="ru" hreflang="ru" dir="auto">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr" dir="auto">Türkçe</a></li><li><a href="/uk/" lang="uk" hreflang="uk" dir="auto">Українська</a></li><li><a href="/vi/" lang="vi" hreflang="vi" dir="auto">Tiếng Việt</a></li><li><a href="/zh-hans/" lang="zh-Hans" hreflang="zh-Hans" dir="auto">简体中文</a></li><li><a href="/zh-hant/" lang="zh-Hant" hreflang="zh-Hant" dir="auto">繁體中文</a></li></ul>
-      </details>
-      <label class="theme-control" hidden>
-        <span class="sr-only">Aparência</span>
-        <select id="theme" aria-label="Aparência">
-          <option value="system">Sistema</option>
-          <option value="light">Clara</option>
-          <option value="dark">Escura</option>
-        </select>
-      </label>
+    <a class="brand" href="/pt-br/"><img src="/assets/icon.png" alt="" width="34" height="34"> NVMe Monitor</a>
+    <button type="button" class="mobile-toggle" aria-controls="masthead-content" aria-expanded="false" hidden><span>Menu</span><span class="glyph glyph-menu" aria-hidden="true"></span><span class="glyph glyph-close" aria-hidden="true"></span></button>
+    <div class="masthead-content" id="masthead-content">
+      <nav aria-label="Navegação principal"><a class="desktop-link" href="#compatibility">Compatibilidade</a><a href="/pt-br/support/">Suporte</a><a href="/pt-br/privacy/" class="desktop-link">Privacidade</a><a href="/pt-br/press/" class="desktop-link">Kit de imprensa</a></nav>
+      <div class="site-controls"><div class="control control-language">
+        <span class="control-caption" id="language-label">Idioma</span>
+        <details class="dropdown" id="language">
+          <summary class="dropdown-trigger" aria-labelledby="language-label language-value">
+            <span id="language-value" class="dropdown-value">Português (Brasil)</span><span class="glyph glyph-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-options"><li><a href="/" lang="en" hreflang="en" dir="auto">English</a></li><li><a href="/ar/" lang="ar" hreflang="ar" dir="auto">العربية</a></li><li><a href="/de/" lang="de" hreflang="de" dir="auto">Deutsch</a></li><li><a href="/es/" lang="es" hreflang="es" dir="auto">Español</a></li><li><a href="/fr/" lang="fr" hreflang="fr" dir="auto">Français</a></li><li><a href="/hi/" lang="hi" hreflang="hi" dir="auto">हिन्दी</a></li><li><a href="/id/" lang="id" hreflang="id" dir="auto">Bahasa Indonesia</a></li><li><a href="/it/" lang="it" hreflang="it" dir="auto">Italiano</a></li><li><a href="/ja/" lang="ja" hreflang="ja" dir="auto">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko" dir="auto">한국어</a></li><li><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" dir="auto" aria-current="page">Português (Brasil)</a></li><li><a href="/ru/" lang="ru" hreflang="ru" dir="auto">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr" dir="auto">Türkçe</a></li><li><a href="/uk/" lang="uk" hreflang="uk" dir="auto">Українська</a></li><li><a href="/vi/" lang="vi" hreflang="vi" dir="auto">Tiếng Việt</a></li><li><a href="/zh-hans/" lang="zh-Hans" hreflang="zh-Hans" dir="auto">简体中文</a></li><li><a href="/zh-hant/" lang="zh-Hant" hreflang="zh-Hant" dir="auto">繁體中文</a></li></ul>
+        </details>
+      </div><div class="control control-theme" hidden>
+        <span class="control-caption" id="theme-label">Aparência</span>
+        <details class="dropdown" id="theme">
+          <summary class="dropdown-trigger" aria-labelledby="theme-label theme-value">
+            <span id="theme-value" class="dropdown-value">Sistema</span><span class="glyph glyph-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-options"><li><button type="button" dir="auto" data-value="system" aria-pressed="true">Sistema</button></li><li><button type="button" dir="auto" data-value="light" aria-pressed="false">Clara</button></li><li><button type="button" dir="auto" data-value="dark" aria-pressed="false">Escura</button></li></ul>
+        </details>
+      </div></div>
     </div>
   </header>
   <main id="main">
     <section class="hero">
       <div class="hero-copy">
-        <h1>Acompanhe a temperatura do seu SSD.</h1>
+        <h1><span>Acompanhe a temperatura</span> <span>do seu SSD.</span></h1>
         <p class="intro">Veja a temperatura e o status SMART das suas unidades NVMe externas direto na barra de menus do Mac.</p>
         <div class="hero-actions">
-          <a class="button" href="#compatibility">Verificar compatibilidade</a>
           <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
+          <a class="button" href="#compatibility">Verificar compatibilidade</a>
         </div>
         <p class="hero-requirement">macOS 27 ou posterior.</p>
       </div>
       <div class="product-stage">
         <div class="stage-toolbar">
-          <span class="stage-title"><img src="/assets/icon.png" alt="" width="24" height="24"> NVMe Monitor</span>
-          <label class="temperature-control" hidden>
-            <span>Unidade de temperatura</span>
-            <select id="temperature-unit" aria-label="Unidade de temperatura">
-              <option value="celsius">Celsius (°C)</option>
-              <option value="fahrenheit">Fahrenheit (°F)</option>
-            </select>
-          </label>
+          <span class="stage-title">Prévia do app</span>
+          <div class="control control-temperature-unit" hidden>
+        <span class="control-caption" id="temperature-unit-label">Unidade de temperatura</span>
+        <details class="dropdown" id="temperature-unit">
+          <summary class="dropdown-trigger" aria-labelledby="temperature-unit-label temperature-unit-value">
+            <span id="temperature-unit-value" class="dropdown-value">Celsius (°C)</span><span class="glyph glyph-chevron" aria-hidden="true"></span>
+          </summary>
+          <ul class="dropdown-options"><li><button type="button" dir="auto" data-value="celsius" aria-pressed="true">Celsius (°C)</button></li><li><button type="button" dir="auto" data-value="fahrenheit" aria-pressed="false">Fahrenheit (°F)</button></li></ul>
+        </details>
+      </div>
         </div>
-        <div class="stage-content">
-          <figure class="stage-settings">
-            <img src="/press/nvme-monitor-settings.webp" width="640" height="417" loading="lazy" decoding="async" alt="Ajustes da unidade na barra de menus, do intervalo de atualização e da unidade de temperatura">
-          </figure>
-          <figure class="hero-image">
-            <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="O NVMe Monitor mostra um SSD externo conectado, a temperatura composta, as leituras dos sensores e os dados SMART">
-            <figcaption>Exemplo de leitura SMART / NVMe externo de 2 TB</figcaption>
-          </figure>
-        </div>
+        <figure class="hero-image">
+          <div class="preview-art"><img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="O NVMe Monitor mostra um SSD externo conectado, a temperatura composta, as leituras dos sensores e os dados SMART"></div>
+          <figcaption>Exemplo de leitura SMART / NVMe externo de 2 TB</figcaption>
+        </figure>
       </div>
     </section>
     <section class="features" aria-labelledby="features">
       <h2 id="features">Todas as unidades conectadas em um só menu.</h2>
-      <div class="columns"><div><h3>Temperatura</h3><p>Veja a temperatura composta e as leituras dos outros sensores que a unidade disponibiliza.</p></div><div><h3>Status SMART</h3><p>Confira em um só lugar o desgaste, a capacidade de reserva, as horas de funcionamento e os erros de mídia.</p></div><div><h3>Alertas locais</h3><p>Defina um limite de temperatura e receba uma notificação quando alguma unidade indicar um problema.</p></div></div>
+      <div class="columns"><div><span class="glyph glyph-temperature" aria-hidden="true"></span><h3>Temperatura</h3><p>Veja a temperatura composta e as leituras dos outros sensores que a unidade disponibiliza.</p></div><div><span class="glyph glyph-smart" aria-hidden="true"></span><h3>Status SMART</h3><p>Confira em um só lugar o desgaste, a capacidade de reserva, as horas de funcionamento e os erros de mídia.</p></div><div><span class="glyph glyph-alerts" aria-hidden="true"></span><h3>Alertas locais</h3><p>Defina um limite de temperatura e receba uma notificação quando alguma unidade indicar um problema.</p></div></div>
     </section>
     <section class="compatibility" id="compatibility" aria-labelledby="compatibility-title">
       <div class="compatibility-layout">
@@ -108,8 +111,7 @@
     </section>
   </main>
   <footer class="bar footer">
-    <div><a class="footer-name" href="/pt-br/">NVMe Monitor</a><p>Funciona localmente no Mac. Não precisa de conta.</p></div>
-    <div><p>Obter temperatura da unidade no app Atalhos</p><a href="mailto:support@nvmemonitor.app">support@nvmemonitor.app</a></div>
+    <div><a class="footer-name" href="/pt-br/">NVMe Monitor</a></div>
     <nav aria-label="Rodapé"><a href="/pt-br/" aria-current="page">Visão geral</a><a href="/pt-br/support/">Suporte</a><a href="/pt-br/privacy/">Privacidade</a><a href="/pt-br/press/">Kit de imprensa</a></nav>
   </footer>
 </body>
