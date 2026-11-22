@@ -27,7 +27,7 @@
   <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/">
   <link rel="icon" type="image/png" href="/assets/icon.png">
   <script src="/assets/releases/preferences.214bd708e36203cc.js"></script>
-  <link rel="stylesheet" href="/assets/releases/site.84a16c9c14124952.css">
+  <link rel="stylesheet" href="/assets/releases/site.047030fc00fc3085.css">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NVMe Monitor">
   <meta property="og:url" content="https://nvmemonitor.app/fr/">
@@ -62,33 +62,35 @@
   </header>
   <main id="main">
     <section class="hero">
-      <div class="hero-layout">
-        <div class="hero-copy">
-          <p class="eyebrow">Stockage externe / macOS</p>
-          <h1>Gardez un œil<br> sur la température de votre SSD.</h1>
-          <p class="intro">Consultez la température et l’état SMART de vos disques NVMe externes, directement dans la barre des menus du Mac.</p>
-          <div class="hero-actions">
-            <a class="button" href="#compatibility">Vérifier la compatibilité<img src="/assets/arrow.svg" width="16" height="16" alt=""></a>
-            <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
-          </div>
+      <div class="hero-copy">
+        <h1>Gardez un œil sur la température de votre SSD.</h1>
+        <p class="intro">Consultez la température et l’état SMART de vos disques NVMe externes, directement dans la barre des menus du Mac.</p>
+        <div class="hero-actions">
+          <a class="button" href="#compatibility">Vérifier la compatibilité</a>
+          <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
         </div>
-        <figure class="hero-image">
-          <picture class="contours" aria-hidden="true">
-            <source media="(max-width: 45rem)" srcset="/assets/contours-mobile.svg">
-            <img src="/assets/contours-desktop.svg" width="668" height="580" alt="">
-          </picture>
-          <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor affiche un SSD externe connecté, sa température composite, les relevés de ses capteurs et ses données SMART">
-          <figcaption>
-            <span>Exemple de relevé SMART / NVMe externe de 2 To</span>
-            <label class="temperature-control" hidden>
-              <span class="sr-only">Unité de température</span>
-              <select id="temperature-unit" aria-label="Unité de température">
-                <option value="celsius">Celsius (°C)</option>
-                <option value="fahrenheit">Fahrenheit (°F)</option>
-              </select>
-            </label>
-          </figcaption>
-        </figure>
+        <p class="hero-requirement">macOS 27 ou version ultérieure.</p>
+      </div>
+      <div class="product-stage">
+        <div class="stage-toolbar">
+          <span class="stage-title"><img src="/assets/icon.png" alt="" width="24" height="24"> NVMe Monitor</span>
+          <label class="temperature-control" hidden>
+            <span>Unité de température</span>
+            <select id="temperature-unit" aria-label="Unité de température">
+              <option value="celsius">Celsius (°C)</option>
+              <option value="fahrenheit">Fahrenheit (°F)</option>
+            </select>
+          </label>
+        </div>
+        <div class="stage-content">
+          <figure class="stage-settings">
+            <img src="/press/nvme-monitor-settings.webp" width="640" height="417" loading="lazy" decoding="async" alt="Réglages du disque affiché dans la barre des menus, de la fréquence d’actualisation et de l’unité de température">
+          </figure>
+          <figure class="hero-image">
+            <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor affiche un SSD externe connecté, sa température composite, les relevés de ses capteurs et ses données SMART">
+            <figcaption>Exemple de relevé SMART / NVMe externe de 2 To</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
     <section class="features" aria-labelledby="features">
@@ -97,7 +99,7 @@
     </section>
     <section class="compatibility" id="compatibility" aria-labelledby="compatibility-title">
       <div class="compatibility-layout">
-        <div><p class="eyebrow">Compatibilité</p><h2 id="compatibility-title">Mon disque est-il compatible ?</h2></div>
+        <div><h2 id="compatibility-title">Mon disque est-il compatible ?</h2></div>
         <div class="requirements">
           <dl><div><dt>Mac</dt><dd>macOS 27 ou version ultérieure.</dd></div><div><dt>Disque</dt><dd>SSD NVMe externe.</dd></div><div><dt>Boîtier</dt><dd>Thunderbolt ou USB4 avec accès natif à NVMe. La disponibilité des données SMART dépend du boîtier.</dd></div></dl>
           <a href="/fr/support/#missing-drive">Pourquoi mon disque ne s’affiche-t-il pas ?</a>

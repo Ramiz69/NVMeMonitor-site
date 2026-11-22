@@ -27,7 +27,7 @@
   <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/">
   <link rel="icon" type="image/png" href="/assets/icon.png">
   <script src="/assets/releases/preferences.214bd708e36203cc.js"></script>
-  <link rel="stylesheet" href="/assets/releases/site.84a16c9c14124952.css">
+  <link rel="stylesheet" href="/assets/releases/site.047030fc00fc3085.css">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NVMe Monitor">
   <meta property="og:url" content="https://nvmemonitor.app/hi/">
@@ -62,33 +62,35 @@
   </header>
   <main id="main">
     <section class="hero">
-      <div class="hero-layout">
-        <div class="hero-copy">
-          <p class="eyebrow">बाहरी स्टोरेज / macOS</p>
-          <h1>जानें, आपका SSD<br> कितना गर्म होता है।</h1>
-          <p class="intro">बाहरी NVMe ड्राइव का तापमान और SMART स्थिति सीधे Mac के मेनू बार से देखें।</p>
-          <div class="hero-actions">
-            <a class="button" href="#compatibility">संगतता जाँचें<img src="/assets/arrow.svg" width="16" height="16" alt=""></a>
-            <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
-          </div>
+      <div class="hero-copy">
+        <h1>जानें, आपका SSD कितना गर्म होता है।</h1>
+        <p class="intro">बाहरी NVMe ड्राइव का तापमान और SMART स्थिति सीधे Mac के मेनू बार से देखें।</p>
+        <div class="hero-actions">
+          <a class="button" href="#compatibility">संगतता जाँचें</a>
+          <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
         </div>
-        <figure class="hero-image">
-          <picture class="contours" aria-hidden="true">
-            <source media="(max-width: 45rem)" srcset="/assets/contours-mobile.svg">
-            <img src="/assets/contours-desktop.svg" width="668" height="580" alt="">
-          </picture>
-          <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor में कनेक्ट की गई बाहरी SSD, उसका समग्र तापमान, सेंसर की रीडिंग और SMART डेटा दिख रहे हैं">
-          <figcaption>
-            <span>SMART रीडिंग का उदाहरण / 2 TB की बाहरी NVMe ड्राइव</span>
-            <label class="temperature-control" hidden>
-              <span class="sr-only">तापमान की इकाई</span>
-              <select id="temperature-unit" aria-label="तापमान की इकाई">
-                <option value="celsius">सेल्सियस (°C)</option>
-                <option value="fahrenheit">फ़ारेनहाइट (°F)</option>
-              </select>
-            </label>
-          </figcaption>
-        </figure>
+        <p class="hero-requirement">macOS 27 या उसके बाद का संस्करण।</p>
+      </div>
+      <div class="product-stage">
+        <div class="stage-toolbar">
+          <span class="stage-title"><img src="/assets/icon.png" alt="" width="24" height="24"> NVMe Monitor</span>
+          <label class="temperature-control" hidden>
+            <span>तापमान की इकाई</span>
+            <select id="temperature-unit" aria-label="तापमान की इकाई">
+              <option value="celsius">सेल्सियस (°C)</option>
+              <option value="fahrenheit">फ़ारेनहाइट (°F)</option>
+            </select>
+          </label>
+        </div>
+        <div class="stage-content">
+          <figure class="stage-settings">
+            <img src="/press/nvme-monitor-settings.webp" width="640" height="417" loading="lazy" decoding="async" alt="मेनू बार की ड्राइव, रीफ़्रेश अंतराल और तापमान की इकाई की सेटिंग्ज़">
+          </figure>
+          <figure class="hero-image">
+            <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor में कनेक्ट की गई बाहरी SSD, उसका समग्र तापमान, सेंसर की रीडिंग और SMART डेटा दिख रहे हैं">
+            <figcaption>SMART रीडिंग का उदाहरण / 2 TB की बाहरी NVMe ड्राइव</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
     <section class="features" aria-labelledby="features">
@@ -97,7 +99,7 @@
     </section>
     <section class="compatibility" id="compatibility" aria-labelledby="compatibility-title">
       <div class="compatibility-layout">
-        <div><p class="eyebrow">संगतता</p><h2 id="compatibility-title">क्या मेरी ड्राइव संगत है?</h2></div>
+        <div><h2 id="compatibility-title">क्या मेरी ड्राइव संगत है?</h2></div>
         <div class="requirements">
           <dl><div><dt>Mac</dt><dd>macOS 27 या उसके बाद का संस्करण।</dd></div><div><dt>ड्राइव</dt><dd>बाहरी NVMe SSD।</dd></div><div><dt>एनक्लोज़र</dt><dd>ऐसा Thunderbolt या USB4 एनक्लोज़र जिससे NVMe का सीधे ऐक्सेस मिले। SMART डेटा की उपलब्धता एनक्लोज़र पर निर्भर करती है।</dd></div></dl>
           <a href="/hi/support/#missing-drive">मेरी ड्राइव क्यों नहीं दिख रही?</a>

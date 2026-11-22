@@ -27,7 +27,7 @@
   <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/">
   <link rel="icon" type="image/png" href="/assets/icon.png">
   <script src="/assets/releases/preferences.214bd708e36203cc.js"></script>
-  <link rel="stylesheet" href="/assets/releases/site.84a16c9c14124952.css">
+  <link rel="stylesheet" href="/assets/releases/site.047030fc00fc3085.css">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NVMe Monitor">
   <meta property="og:url" content="https://nvmemonitor.app/zh-hant/">
@@ -62,33 +62,35 @@
   </header>
   <main id="main">
     <section class="hero">
-      <div class="hero-layout">
-        <div class="hero-copy">
-          <p class="eyebrow">外接儲存裝置 / macOS</p>
-          <h1>外接 SSD 有多熱？<br> 一眼就知道。</h1>
-          <p class="intro">直接從 Mac 選單列查看外接 NVMe 磁碟機的溫度與 SMART 狀態。</p>
-          <div class="hero-actions">
-            <a class="button" href="#compatibility">查看相容性<img src="/assets/arrow.svg" width="16" height="16" alt=""></a>
-            <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
-          </div>
+      <div class="hero-copy">
+        <h1>外接 SSD 有多熱？一眼就知道。</h1>
+        <p class="intro">直接從 Mac 選單列查看外接 NVMe 磁碟機的溫度與 SMART 狀態。</p>
+        <div class="hero-actions">
+          <a class="button" href="#compatibility">查看相容性</a>
+          <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
         </div>
-        <figure class="hero-image">
-          <picture class="contours" aria-hidden="true">
-            <source media="(max-width: 45rem)" srcset="/assets/contours-mobile.svg">
-            <img src="/assets/contours-desktop.svg" width="668" height="580" alt="">
-          </picture>
-          <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor 顯示已連接的外接 SSD、綜合溫度、各感測器讀數及 SMART 資料">
-          <figcaption>
-            <span>SMART 讀數範例 / 2 TB 外接 NVMe SSD</span>
-            <label class="temperature-control" hidden>
-              <span class="sr-only">溫度單位</span>
-              <select id="temperature-unit" aria-label="溫度單位">
-                <option value="celsius">攝氏 (°C)</option>
-                <option value="fahrenheit">華氏 (°F)</option>
-              </select>
-            </label>
-          </figcaption>
-        </figure>
+        <p class="hero-requirement">macOS 27 或以上版本。</p>
+      </div>
+      <div class="product-stage">
+        <div class="stage-toolbar">
+          <span class="stage-title"><img src="/assets/icon.png" alt="" width="24" height="24"> NVMe Monitor</span>
+          <label class="temperature-control" hidden>
+            <span>溫度單位</span>
+            <select id="temperature-unit" aria-label="溫度單位">
+              <option value="celsius">攝氏 (°C)</option>
+              <option value="fahrenheit">華氏 (°F)</option>
+            </select>
+          </label>
+        </div>
+        <div class="stage-content">
+          <figure class="stage-settings">
+            <img src="/press/nvme-monitor-settings.webp" width="640" height="417" loading="lazy" decoding="async" alt="選單列磁碟機、更新間隔和溫度單位的設定">
+          </figure>
+          <figure class="hero-image">
+            <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor 顯示已連接的外接 SSD、綜合溫度、各感測器讀數及 SMART 資料">
+            <figcaption>SMART 讀數範例 / 2 TB 外接 NVMe SSD</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
     <section class="features" aria-labelledby="features">
@@ -97,7 +99,7 @@
     </section>
     <section class="compatibility" id="compatibility" aria-labelledby="compatibility-title">
       <div class="compatibility-layout">
-        <div><p class="eyebrow">相容性</p><h2 id="compatibility-title">我的磁碟機能用嗎？</h2></div>
+        <div><h2 id="compatibility-title">我的磁碟機能用嗎？</h2></div>
         <div class="requirements">
           <dl><div><dt>Mac</dt><dd>macOS 27 或以上版本。</dd></div><div><dt>磁碟機</dt><dd>外接 NVMe SSD。</dd></div><div><dt>外接盒</dt><dd>支援原生 NVMe 存取的 Thunderbolt 或 USB4 外接盒。能否讀取 SMART 資料取決於外接盒。</dd></div></dl>
           <a href="/zh-hant/support/#missing-drive">為什麼找不到我的磁碟機？</a>

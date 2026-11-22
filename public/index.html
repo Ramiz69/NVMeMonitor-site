@@ -27,7 +27,7 @@
   <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/">
   <link rel="icon" type="image/png" href="/assets/icon.png">
   <script src="/assets/releases/preferences.214bd708e36203cc.js"></script>
-  <link rel="stylesheet" href="/assets/releases/site.84a16c9c14124952.css">
+  <link rel="stylesheet" href="/assets/releases/site.047030fc00fc3085.css">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NVMe Monitor">
   <meta property="og:url" content="https://nvmemonitor.app/">
@@ -62,33 +62,35 @@
   </header>
   <main id="main">
     <section class="hero">
-      <div class="hero-layout">
-        <div class="hero-copy">
-          <p class="eyebrow">External storage / macOS</p>
-          <h1>Know how hot<br> your SSD runs.</h1>
-          <p class="intro">See temperature and SMART health for your external NVMe drives, right in the Mac menu bar.</p>
-          <div class="hero-actions">
-            <a class="button" href="#compatibility">Check compatibility<img src="/assets/arrow.svg" width="16" height="16" alt=""></a>
-            <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
-          </div>
+      <div class="hero-copy">
+        <h1>Know how hot your SSD runs.</h1>
+        <p class="intro">See temperature and SMART health for your external NVMe drives, right in the Mac menu bar.</p>
+        <div class="hero-actions">
+          <a class="button" href="#compatibility">Check compatibility</a>
+          <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
         </div>
-        <figure class="hero-image">
-          <picture class="contours" aria-hidden="true">
-            <source media="(max-width: 45rem)" srcset="/assets/contours-mobile.svg">
-            <img src="/assets/contours-desktop.svg" width="668" height="580" alt="">
-          </picture>
-          <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor shows a connected external SSD, its composite and sensor temperatures, and SMART readings">
-          <figcaption>
-            <span>Example SMART reading / 2 TB external NVMe</span>
-            <label class="temperature-control" hidden>
-              <span class="sr-only">Temperature unit</span>
-              <select id="temperature-unit" aria-label="Temperature unit">
-                <option value="celsius">Celsius (°C)</option>
-                <option value="fahrenheit">Fahrenheit (°F)</option>
-              </select>
-            </label>
-          </figcaption>
-        </figure>
+        <p class="hero-requirement">macOS 27 or later.</p>
+      </div>
+      <div class="product-stage">
+        <div class="stage-toolbar">
+          <span class="stage-title"><img src="/assets/icon.png" alt="" width="24" height="24"> NVMe Monitor</span>
+          <label class="temperature-control" hidden>
+            <span>Temperature unit</span>
+            <select id="temperature-unit" aria-label="Temperature unit">
+              <option value="celsius">Celsius (°C)</option>
+              <option value="fahrenheit">Fahrenheit (°F)</option>
+            </select>
+          </label>
+        </div>
+        <div class="stage-content">
+          <figure class="stage-settings">
+            <img src="/press/nvme-monitor-settings.webp" width="640" height="417" loading="lazy" decoding="async" alt="Settings for menu bar drive, refresh interval and temperature unit">
+          </figure>
+          <figure class="hero-image">
+            <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor shows a connected external SSD, its composite and sensor temperatures, and SMART readings">
+            <figcaption>Example SMART reading / 2 TB external NVMe</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
     <section class="features" aria-labelledby="features">
@@ -97,7 +99,7 @@
     </section>
     <section class="compatibility" id="compatibility" aria-labelledby="compatibility-title">
       <div class="compatibility-layout">
-        <div><p class="eyebrow">Compatibility</p><h2 id="compatibility-title">Will it read my drive?</h2></div>
+        <div><h2 id="compatibility-title">Will it read my drive?</h2></div>
         <div class="requirements">
           <dl><div><dt>Mac</dt><dd>macOS 27 or later.</dd></div><div><dt>Drive</dt><dd>External NVMe SSD.</dd></div><div><dt>Enclosure</dt><dd>Thunderbolt or USB4 with native NVMe access. SMART availability depends on the enclosure.</dd></div></dl>
           <a href="/support/#missing-drive">Why is my drive missing?</a>

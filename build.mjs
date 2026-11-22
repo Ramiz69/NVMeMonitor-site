@@ -195,37 +195,40 @@ ${body}
 `;
 }
 
-function home(locale, { ui, home: t }) {
+function home(locale, { ui, home: t, press }) {
   const feature = (key) => `<div><h3>${t[key]}</h3><p>${t[key + 'Body']}</p></div>`;
   const requirement = (key) => `<div><dt>${t[key]}</dt><dd>${t[key + 'Body']}</dd></div>`;
+  const titleGap = /^(ja|zh-)/.test(locale) ? '' : ' ';
   return `    <section class="hero">
-      <div class="hero-layout">
-        <div class="hero-copy">
-          <p class="eyebrow">${t.eyebrow}</p>
-          <h1>${t.headlineFirst}<br> ${t.headlineSecond}</h1>
-          <p class="intro">${t.intro}</p>
-          <div class="hero-actions">
-            <a class="button" href="#compatibility">${t.check}<img src="/assets/arrow.svg" width="16" height="16" alt=""></a>
-            ${storeLink(locale)}
-          </div>
+      <div class="hero-copy">
+        <h1>${t.headlineFirst}${titleGap}${t.headlineSecond}</h1>
+        <p class="intro">${t.intro}</p>
+        <div class="hero-actions">
+          <a class="button" href="#compatibility">${t.check}</a>
+          ${storeLink(locale)}
         </div>
-        <figure class="hero-image">
-          <picture class="contours" aria-hidden="true">
-            <source media="(max-width: 45rem)" srcset="/assets/contours-mobile.svg">
-            <img src="/assets/contours-desktop.svg" width="668" height="580" alt="">
-          </picture>
-          <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="${t.heroAlt}">
-          <figcaption>
-            <span>${t.example}</span>
-            <label class="temperature-control" hidden>
-              <span class="sr-only">${ui.unit}</span>
-              <select id="temperature-unit" aria-label="${ui.unit}">
-                <option value="celsius">${ui.celsius} (°C)</option>
-                <option value="fahrenheit">${ui.fahrenheit} (°F)</option>
-              </select>
-            </label>
-          </figcaption>
-        </figure>
+        <p class="hero-requirement">${t.macBody}</p>
+      </div>
+      <div class="product-stage">
+        <div class="stage-toolbar">
+          <span class="stage-title"><img src="/assets/icon.png" alt="" width="24" height="24"> NVMe Monitor</span>
+          <label class="temperature-control" hidden>
+            <span>${ui.unit}</span>
+            <select id="temperature-unit" aria-label="${ui.unit}">
+              <option value="celsius">${ui.celsius} (°C)</option>
+              <option value="fahrenheit">${ui.fahrenheit} (°F)</option>
+            </select>
+          </label>
+        </div>
+        <div class="stage-content">
+          <figure class="stage-settings">
+            <img src="/press/nvme-monitor-settings.webp" width="640" height="417" loading="lazy" decoding="async" alt="${press.settings}">
+          </figure>
+          <figure class="hero-image">
+            <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="${t.heroAlt}">
+            <figcaption>${t.example}</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
     <section class="features" aria-labelledby="features">
@@ -234,7 +237,7 @@ function home(locale, { ui, home: t }) {
     </section>
     <section class="compatibility" id="compatibility" aria-labelledby="compatibility-title">
       <div class="compatibility-layout">
-        <div><p class="eyebrow">${ui.compatibility}</p><h2 id="compatibility-title">${t.compatibilityHeading}</h2></div>
+        <div><h2 id="compatibility-title">${t.compatibilityHeading}</h2></div>
         <div class="requirements">
           <dl>${['mac', 'drive', 'enclosure'].map(requirement).join('')}</dl>
           <a href="${route(locale, 'support')}#missing-drive">${t.missing}</a>

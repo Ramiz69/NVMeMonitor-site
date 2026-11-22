@@ -27,7 +27,7 @@
   <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/">
   <link rel="icon" type="image/png" href="/assets/icon.png">
   <script src="/assets/releases/preferences.214bd708e36203cc.js"></script>
-  <link rel="stylesheet" href="/assets/releases/site.84a16c9c14124952.css">
+  <link rel="stylesheet" href="/assets/releases/site.047030fc00fc3085.css">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NVMe Monitor">
   <meta property="og:url" content="https://nvmemonitor.app/ko/">
@@ -62,33 +62,35 @@
   </header>
   <main id="main">
     <section class="hero">
-      <div class="hero-layout">
-        <div class="hero-copy">
-          <p class="eyebrow">외장 저장 장치 / macOS</p>
-          <h1>외장 SSD의 온도,<br> 한눈에 확인하세요.</h1>
-          <p class="intro">외장 NVMe 드라이브의 온도와 SMART 상태를 Mac 메뉴 막대에서 바로 확인할 수 있습니다.</p>
-          <div class="hero-actions">
-            <a class="button" href="#compatibility">호환성 확인<img src="/assets/arrow.svg" width="16" height="16" alt=""></a>
-            <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
-          </div>
+      <div class="hero-copy">
+        <h1>외장 SSD의 온도, 한눈에 확인하세요.</h1>
+        <p class="intro">외장 NVMe 드라이브의 온도와 SMART 상태를 Mac 메뉴 막대에서 바로 확인할 수 있습니다.</p>
+        <div class="hero-actions">
+          <a class="button" href="#compatibility">호환성 확인</a>
+          <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
         </div>
-        <figure class="hero-image">
-          <picture class="contours" aria-hidden="true">
-            <source media="(max-width: 45rem)" srcset="/assets/contours-mobile.svg">
-            <img src="/assets/contours-desktop.svg" width="668" height="580" alt="">
-          </picture>
-          <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor에 연결된 외장 SSD의 종합 온도, 센서별 온도, SMART 측정값이 표시된 화면">
-          <figcaption>
-            <span>SMART 측정 예시 / 2 TB 외장 NVMe SSD</span>
-            <label class="temperature-control" hidden>
-              <span class="sr-only">온도 단위</span>
-              <select id="temperature-unit" aria-label="온도 단위">
-                <option value="celsius">섭씨 (°C)</option>
-                <option value="fahrenheit">화씨 (°F)</option>
-              </select>
-            </label>
-          </figcaption>
-        </figure>
+        <p class="hero-requirement">macOS 27 이상.</p>
+      </div>
+      <div class="product-stage">
+        <div class="stage-toolbar">
+          <span class="stage-title"><img src="/assets/icon.png" alt="" width="24" height="24"> NVMe Monitor</span>
+          <label class="temperature-control" hidden>
+            <span>온도 단위</span>
+            <select id="temperature-unit" aria-label="온도 단위">
+              <option value="celsius">섭씨 (°C)</option>
+              <option value="fahrenheit">화씨 (°F)</option>
+            </select>
+          </label>
+        </div>
+        <div class="stage-content">
+          <figure class="stage-settings">
+            <img src="/press/nvme-monitor-settings.webp" width="640" height="417" loading="lazy" decoding="async" alt="메뉴 막대에 표시할 드라이브, 새로 고침 간격 및 온도 단위 설정">
+          </figure>
+          <figure class="hero-image">
+            <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor에 연결된 외장 SSD의 종합 온도, 센서별 온도, SMART 측정값이 표시된 화면">
+            <figcaption>SMART 측정 예시 / 2 TB 외장 NVMe SSD</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
     <section class="features" aria-labelledby="features">
@@ -97,7 +99,7 @@
     </section>
     <section class="compatibility" id="compatibility" aria-labelledby="compatibility-title">
       <div class="compatibility-layout">
-        <div><p class="eyebrow">호환성</p><h2 id="compatibility-title">내 드라이브도 지원하나요?</h2></div>
+        <div><h2 id="compatibility-title">내 드라이브도 지원하나요?</h2></div>
         <div class="requirements">
           <dl><div><dt>Mac</dt><dd>macOS 27 이상.</dd></div><div><dt>드라이브</dt><dd>외장 NVMe SSD.</dd></div><div><dt>인클로저</dt><dd>네이티브 NVMe에 접근할 수 있는 Thunderbolt 또는 USB4 인클로저. SMART 정보를 읽을 수 있는지는 인클로저에 따라 다릅니다.</dd></div></dl>
           <a href="/ko/support/#missing-drive">드라이브가 왜 표시되지 않나요?</a>

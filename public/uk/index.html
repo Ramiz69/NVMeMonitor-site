@@ -27,7 +27,7 @@
   <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/">
   <link rel="icon" type="image/png" href="/assets/icon.png">
   <script src="/assets/releases/preferences.214bd708e36203cc.js"></script>
-  <link rel="stylesheet" href="/assets/releases/site.84a16c9c14124952.css">
+  <link rel="stylesheet" href="/assets/releases/site.047030fc00fc3085.css">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NVMe Monitor">
   <meta property="og:url" content="https://nvmemonitor.app/uk/">
@@ -62,33 +62,35 @@
   </header>
   <main id="main">
     <section class="hero">
-      <div class="hero-layout">
-        <div class="hero-copy">
-          <p class="eyebrow">Зовнішні накопичувачі / macOS</p>
-          <h1>Дізнайтеся, як сильно<br> нагрівається ваш SSD.</h1>
-          <p class="intro">Температура й стан зовнішніх NVMe-накопичувачів за даними SMART просто у смузі меню Mac.</p>
-          <div class="hero-actions">
-            <a class="button" href="#compatibility">Перевірити сумісність<img src="/assets/arrow.svg" width="16" height="16" alt=""></a>
-            <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
-          </div>
+      <div class="hero-copy">
+        <h1>Дізнайтеся, як сильно нагрівається ваш SSD.</h1>
+        <p class="intro">Температура й стан зовнішніх NVMe-накопичувачів за даними SMART просто у смузі меню Mac.</p>
+        <div class="hero-actions">
+          <a class="button" href="#compatibility">Перевірити сумісність</a>
+          <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
         </div>
-        <figure class="hero-image">
-          <picture class="contours" aria-hidden="true">
-            <source media="(max-width: 45rem)" srcset="/assets/contours-mobile.svg">
-            <img src="/assets/contours-desktop.svg" width="668" height="580" alt="">
-          </picture>
-          <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor показує під’єднаний зовнішній SSD, зведену температуру, показники датчиків і дані SMART">
-          <figcaption>
-            <span>Приклад даних SMART / зовнішній NVMe-накопичувач на 2 ТБ</span>
-            <label class="temperature-control" hidden>
-              <span class="sr-only">Одиниця вимірювання температури</span>
-              <select id="temperature-unit" aria-label="Одиниця вимірювання температури">
-                <option value="celsius">Цельсій (°C)</option>
-                <option value="fahrenheit">Фаренгейт (°F)</option>
-              </select>
-            </label>
-          </figcaption>
-        </figure>
+        <p class="hero-requirement">macOS 27 або новіша.</p>
+      </div>
+      <div class="product-stage">
+        <div class="stage-toolbar">
+          <span class="stage-title"><img src="/assets/icon.png" alt="" width="24" height="24"> NVMe Monitor</span>
+          <label class="temperature-control" hidden>
+            <span>Одиниця вимірювання температури</span>
+            <select id="temperature-unit" aria-label="Одиниця вимірювання температури">
+              <option value="celsius">Цельсій (°C)</option>
+              <option value="fahrenheit">Фаренгейт (°F)</option>
+            </select>
+          </label>
+        </div>
+        <div class="stage-content">
+          <figure class="stage-settings">
+            <img src="/press/nvme-monitor-settings.webp" width="640" height="417" loading="lazy" decoding="async" alt="Параметри накопичувача у смузі меню, інтервалу оновлення й одиниці температури">
+          </figure>
+          <figure class="hero-image">
+            <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor показує під’єднаний зовнішній SSD, зведену температуру, показники датчиків і дані SMART">
+            <figcaption>Приклад даних SMART / зовнішній NVMe-накопичувач на 2 ТБ</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
     <section class="features" aria-labelledby="features">
@@ -97,7 +99,7 @@
     </section>
     <section class="compatibility" id="compatibility" aria-labelledby="compatibility-title">
       <div class="compatibility-layout">
-        <div><p class="eyebrow">Сумісність</p><h2 id="compatibility-title">Чи підійде мій накопичувач?</h2></div>
+        <div><h2 id="compatibility-title">Чи підійде мій накопичувач?</h2></div>
         <div class="requirements">
           <dl><div><dt>Mac</dt><dd>macOS 27 або новіша.</dd></div><div><dt>Накопичувач</dt><dd>Зовнішній NVMe SSD.</dd></div><div><dt>Корпус</dt><dd>Thunderbolt або USB4 з прямим доступом до NVMe. Доступність SMART залежить від корпусу.</dd></div></dl>
           <a href="/uk/support/#missing-drive">Чому не видно мого накопичувача?</a>

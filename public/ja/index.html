@@ -27,7 +27,7 @@
   <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/">
   <link rel="icon" type="image/png" href="/assets/icon.png">
   <script src="/assets/releases/preferences.214bd708e36203cc.js"></script>
-  <link rel="stylesheet" href="/assets/releases/site.84a16c9c14124952.css">
+  <link rel="stylesheet" href="/assets/releases/site.047030fc00fc3085.css">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NVMe Monitor">
   <meta property="og:url" content="https://nvmemonitor.app/ja/">
@@ -62,33 +62,35 @@
   </header>
   <main id="main">
     <section class="hero">
-      <div class="hero-layout">
-        <div class="hero-copy">
-          <p class="eyebrow">外付けストレージ / macOS</p>
-          <h1>気になるSSDの温度を、<br> ひと目でチェック。</h1>
-          <p class="intro">外付けNVMeドライブの温度とSMART情報を、Macのメニューバーからすぐに確認できます。</p>
-          <div class="hero-actions">
-            <a class="button" href="#compatibility">互換性を確認<img src="/assets/arrow.svg" width="16" height="16" alt=""></a>
-            <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
-          </div>
+      <div class="hero-copy">
+        <h1>気になるSSDの温度を、ひと目でチェック。</h1>
+        <p class="intro">外付けNVMeドライブの温度とSMART情報を、Macのメニューバーからすぐに確認できます。</p>
+        <div class="hero-actions">
+          <a class="button" href="#compatibility">互換性を確認</a>
+          <a class="store-link" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
         </div>
-        <figure class="hero-image">
-          <picture class="contours" aria-hidden="true">
-            <source media="(max-width: 45rem)" srcset="/assets/contours-mobile.svg">
-            <img src="/assets/contours-desktop.svg" width="668" height="580" alt="">
-          </picture>
-          <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitorに、接続中の外付けSSDの総合温度、各センサーの温度、SMART情報が表示されています">
-          <figcaption>
-            <span>SMART表示例 / 2 TBの外付けNVMe SSD</span>
-            <label class="temperature-control" hidden>
-              <span class="sr-only">温度の単位</span>
-              <select id="temperature-unit" aria-label="温度の単位">
-                <option value="celsius">摂氏 (°C)</option>
-                <option value="fahrenheit">華氏 (°F)</option>
-              </select>
-            </label>
-          </figcaption>
-        </figure>
+        <p class="hero-requirement">macOS 27以降。</p>
+      </div>
+      <div class="product-stage">
+        <div class="stage-toolbar">
+          <span class="stage-title"><img src="/assets/icon.png" alt="" width="24" height="24"> NVMe Monitor</span>
+          <label class="temperature-control" hidden>
+            <span>温度の単位</span>
+            <select id="temperature-unit" aria-label="温度の単位">
+              <option value="celsius">摂氏 (°C)</option>
+              <option value="fahrenheit">華氏 (°F)</option>
+            </select>
+          </label>
+        </div>
+        <div class="stage-content">
+          <figure class="stage-settings">
+            <img src="/press/nvme-monitor-settings.webp" width="640" height="417" loading="lazy" decoding="async" alt="メニューバーに表示するドライブ、更新間隔、温度の単位の設定">
+          </figure>
+          <figure class="hero-image">
+            <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitorに、接続中の外付けSSDの総合温度、各センサーの温度、SMART情報が表示されています">
+            <figcaption>SMART表示例 / 2 TBの外付けNVMe SSD</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
     <section class="features" aria-labelledby="features">
@@ -97,7 +99,7 @@
     </section>
     <section class="compatibility" id="compatibility" aria-labelledby="compatibility-title">
       <div class="compatibility-layout">
-        <div><p class="eyebrow">互換性</p><h2 id="compatibility-title">手持ちのドライブは使えますか？</h2></div>
+        <div><h2 id="compatibility-title">手持ちのドライブは使えますか？</h2></div>
         <div class="requirements">
           <dl><div><dt>Mac</dt><dd>macOS 27以降。</dd></div><div><dt>ドライブ</dt><dd>外付けNVMe SSD。</dd></div><div><dt>ケース</dt><dd>NVMeに直接アクセスできるThunderboltまたはUSB4接続のケース。SMART情報が取得できるかどうかはケースによって異なります。</dd></div></dl>
           <a href="/ja/support/#missing-drive">ドライブが表示されない場合は？</a>
