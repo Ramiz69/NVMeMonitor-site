@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NVMe Monitor Privacy Policy</title>
+  <meta name="description" content="Learn what NVMe Monitor reads locally, how optional diagnostics and support email work, and how to control your data.">
+  <link rel="canonical" href="https://nvmemonitor.app/privacy/">
+  <link rel="icon" type="image/png" href="/assets/icon.png">
+  <link rel="stylesheet" href="/assets/site.css">
+  <meta name="theme-color" content="#122b24">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="NVMe Monitor">
+  <meta property="og:url" content="https://nvmemonitor.app/privacy/">
+  <meta property="og:title" content="NVMe Monitor Privacy Policy">
+  <meta property="og:description" content="Learn what NVMe Monitor reads locally, how optional diagnostics and support email work, and how to control your data.">
+  <meta property="og:image" content="https://nvmemonitor.app/assets/social.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="750">
+  <meta property="og:image:alt" content="NVMe Monitor showing the temperature and SMART health of an external SSD">
+  <meta name="twitter:card" content="summary_large_image">
+
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="bar">
+    <a class="brand" href="/"><img src="/assets/icon.png" alt="" width="36" height="36"> NVMe Monitor</a>
+    <nav aria-label="Main navigation"><a href="/">Overview</a><a href="/support/">Support</a><a href="/privacy/" aria-current="page">Privacy Policy</a></nav>
+  </header>
+  <main id="main"><article><h1>Privacy Policy</h1><p>Publisher: Ramiz Kichibekov</p><p>NVMe Monitor is a macOS utility for monitoring the temperature and SMART health of external NVMe SSDs. The app processes device information on your Mac. It does not automatically send that information to the publisher or to a third party.</p>
+<h2>Information the app uses</h2>
+<p>NVMe Monitor reads information needed to identify connected drives and display their status. This can include the drive model, manufacturer if available, connection type, capacity, and the macOS disk identifier for the current connection. It reads SMART information such as temperatures, health warnings, error counts, and usage counters. The app does not open files on the monitored drive or store its serial number.</p>
+<p>The app keeps your settings and a limited record of which warnings have already been sent in its local app data. This lets it restore your preferences and avoid repeating an ongoing warning after you reopen the app. The app does not maintain a history of SMART readings. A local boot-session value helps prevent the app from mistaking a different disk for the one you selected after a restart.</p>
+<h2>MetricKit diagnostics and support email</h2>
+<p>macOS may provide performance metrics and diagnostic reports about NVMe Monitor through Apple&#x27;s MetricKit framework. Reports can include timing and resource-use measurements, app and operating system information, and technical details such as crash or hang stack traces. NVMe Monitor does not add SSD readings, drive identifiers, or app preferences to the MetricKit export.</p>
+<p>The app stores up to five recent reports from the last seven days in its local sandbox. In Settings → Support &amp; Privacy, you can preview the JSON or delete the stored reports. Temporary copies created for attachments stay in local temporary storage and are cleaned up on subsequent launches or when you delete reports in the app. Copies already saved by a mail app or sent by email are outside NVMe Monitor&#x27;s control.</p>
+<p>Write Email opens an editable draft in your email app with the recipient field blank. The draft includes the NVMe Monitor and macOS versions. A diagnostics JSON file is included only if you select Attach MetricKit Diagnostics. You can review or remove it before sending. NVMe Monitor does not send the message or upload reports. If your email app cannot attach the file automatically, you can choose to reveal the local copy and attach it yourself.</p>
+<h2>Notifications and launch at login</h2>
+<p>If you enable notifications and grant permission in macOS, the app delivers warnings through macOS Notification Center. A notification may display the drive model and the related temperature or SMART warning. macOS controls where notifications appear, including whether previews can appear on the lock screen.</p>
+<p>Launch at login is optional. If you enable it, macOS manages the registration. You can turn it off in the app or in System Settings.</p>
+<h2>Collection and sharing</h2>
+<p>NVMe Monitor does not require an account and does not use advertising, tracking, or analytics. The app has no automatic uploads and does not sell data. You choose whether and where to share a support email and any optional attachments.</p>
+<p>If you send a support email to the publisher, the publisher uses the information you choose to provide to respond to your request and investigate the reported issue. This includes any diagnostics you choose to attach. You can use the privacy contact above to ask about or request deletion of information you sent to the publisher.</p>
+<h2>Retention and your choices</h2>
+<p>Settings and warning status stay in the app’s local data until that data is removed or the app updates the relevant records. macOS manages delivered notification history and login items separately. To stop monitoring, quit the app and turn off launch at login if you enabled it. You can revoke notification permission in System Settings and clear delivered alerts in Notification Center. To remove saved settings and warning status, remove the app’s local data when uninstalling it.</p>
+<p>Contact <a href="mailto:support@nvmemonitor.app">support@nvmemonitor.app</a> with privacy questions or for help removing local app data.</p>
+    <h2>Website and support services</h2>
+    <p>Cloudflare hosts this website and processes connection information to serve and protect it. The site contains no advertising or analytics scripts. When you email support, Cloudflare Email Routing forwards the message to the publisher’s Gmail inbox. The email providers process the message and any attachments to deliver and store them.</p>
+</article></main>
+  <footer class="bar footer">
+    <small>© 2026 Ramiz Kichibekov</small>
+    <nav aria-label="Footer"><a href="/">Overview</a><a href="/support/">Support</a><a href="/privacy/" aria-current="page">Privacy Policy</a></nav>
+  </footer>
+</body>
+</html>
