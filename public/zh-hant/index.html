@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>NVMe Monitor — 在 Mac 上查看外接 SSD 溫度與 SMART 狀態</title>
+  <meta name="description" content="在 Mac 選單列查看外接 NVMe SSD 的溫度和 SMART 狀態。可監控相容磁碟機、設定本機通知，也能用捷徑讀取溫度。">
+  <link rel="canonical" href="https://nvmemonitor.app/zh-hant/">
+  <link rel="alternate" hreflang="en" href="https://nvmemonitor.app/">
+  <link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/">
+  <link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/">
+  <link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/">
+  <link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/">
+  <link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/">
+  <link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/">
+  <link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/">
+  <link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/">
+  <link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/">
+  <link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/">
+  <link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/">
+  <link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/">
+  <link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/">
+  <link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/">
+  <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/">
+  <link rel="icon" type="image/png" href="/assets/icon.png">
+  <script src="/assets/preferences.js"></script>
+  <link rel="stylesheet" href="/assets/site.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="NVMe Monitor">
+  <meta property="og:url" content="https://nvmemonitor.app/zh-hant/">
+  <meta property="og:title" content="NVMe Monitor — 在 Mac 上查看外接 SSD 溫度與 SMART 狀態">
+  <meta property="og:description" content="在 Mac 選單列查看外接 NVMe SSD 的溫度和 SMART 狀態。可監控相容磁碟機、設定本機通知，也能用捷徑讀取溫度。">
+  <meta property="og:image" content="https://nvmemonitor.app/assets/social.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="NVMe Monitor 顯示已連接的外接 SSD、綜合溫度、各感測器讀數及 SMART 資料">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"NVMe Monitor","url":"https://nvmemonitor.app/zh-hant/","inLanguage":"zh-Hant","applicationCategory":"UtilitiesApplication","operatingSystem":"macOS 27+","description":"在 Mac 選單列查看外接 NVMe SSD 的溫度和 SMART 狀態。可監控相容磁碟機、設定本機通知，也能用捷徑讀取溫度。","image":"https://nvmemonitor.app/assets/social.jpg"}</script>
+</head>
+<body>
+  <a class="skip" href="#main">跳至主要內容</a>
+  <header class="bar masthead">
+    <a class="brand" href="/zh-hant/"><img src="/assets/icon.png" alt="" width="36" height="36"> NVMe Monitor</a>
+    <nav aria-label="主導覽"><a class="desktop-link" href="#compatibility">相容性</a><a href="/zh-hant/support/">支援</a><a href="/zh-hant/privacy/" class="desktop-link">隱私權</a><a href="/zh-hant/press/" class="desktop-link">媒體資料包</a></nav>
+    <div class="site-controls">
+      <details class="languages">
+        <summary aria-label="語言: 繁體中文">繁體中文</summary>
+        <ul><li><a href="/" lang="en" hreflang="en" dir="auto">English</a></li><li><a href="/ar/" lang="ar" hreflang="ar" dir="auto">العربية</a></li><li><a href="/de/" lang="de" hreflang="de" dir="auto">Deutsch</a></li><li><a href="/es/" lang="es" hreflang="es" dir="auto">Español</a></li><li><a href="/fr/" lang="fr" hreflang="fr" dir="auto">Français</a></li><li><a href="/hi/" lang="hi" hreflang="hi" dir="auto">हिन्दी</a></li><li><a href="/id/" lang="id" hreflang="id" dir="auto">Bahasa Indonesia</a></li><li><a href="/it/" lang="it" hreflang="it" dir="auto">Italiano</a></li><li><a href="/ja/" lang="ja" hreflang="ja" dir="auto">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko" dir="auto">한국어</a></li><li><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" dir="auto">Português (Brasil)</a></li><li><a href="/ru/" lang="ru" hreflang="ru" dir="auto">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr" dir="auto">Türkçe</a></li><li><a href="/uk/" lang="uk" hreflang="uk" dir="auto">Українська</a></li><li><a href="/vi/" lang="vi" hreflang="vi" dir="auto">Tiếng Việt</a></li><li><a href="/zh-hans/" lang="zh-Hans" hreflang="zh-Hans" dir="auto">简体中文</a></li><li><a href="/zh-hant/" lang="zh-Hant" hreflang="zh-Hant" dir="auto" aria-current="page">繁體中文</a></li></ul>
+      </details>
+      <label class="theme-control" hidden>
+        <span class="sr-only">外觀</span>
+        <select id="theme" aria-label="外觀">
+          <option value="system">依系統設定</option>
+          <option value="light">淺色</option>
+          <option value="dark">深色</option>
+        </select>
+      </label>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">外接儲存裝置 / macOS</p>
+          <h1>外接 SSD 有多熱？<br> 一眼就知道。</h1>
+          <p class="intro">直接從 Mac 選單列查看外接 NVMe 磁碟機的溫度與 SMART 狀態。</p>
+          <div class="hero-actions">
+            <a class="button" href="#compatibility">查看相容性<img src="/assets/arrow.svg" width="16" height="16" alt=""></a>
+            <a class="store-button" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
+          </div>
+        </div>
+        <figure class="hero-image">
+          <picture class="contours" aria-hidden="true">
+            <source media="(max-width: 45rem)" srcset="/assets/contours-mobile.svg">
+            <img src="/assets/contours-desktop.svg" width="668" height="580" alt="">
+          </picture>
+          <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor 顯示已連接的外接 SSD、綜合溫度、各感測器讀數及 SMART 資料">
+          <figcaption>
+            <span>SMART 讀數範例 / 2 TB 外接 NVMe SSD</span>
+            <label class="temperature-control" hidden>
+              <span class="sr-only">溫度單位</span>
+              <select id="temperature-unit" aria-label="溫度單位">
+                <option value="celsius">攝氏 (°C)</option>
+                <option value="fahrenheit">華氏 (°F)</option>
+              </select>
+            </label>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="features" aria-labelledby="features">
+      <h2 id="features">在同一個選單查看所有已連接的磁碟機。</h2>
+      <div class="columns"><div><h3>溫度</h3><p>查看磁碟機回報的綜合溫度和其他感測器的讀數。</p></div><div><h3>SMART 狀態</h3><p>在同個面板查看耗損程度、備用容量、通電時數和媒體錯誤。</p></div><div><h3>本機通知</h3><p>設定溫度門檻，磁碟機回報警示時就會收到通知。</p></div></div>
+    </section>
+    <section class="compatibility" id="compatibility" aria-labelledby="compatibility-title">
+      <div class="compatibility-layout">
+        <div><p class="eyebrow">相容性</p><h2 id="compatibility-title">我的磁碟機能用嗎？</h2></div>
+        <div class="requirements">
+          <dl><div><dt>Mac</dt><dd>macOS 27 或以上版本。</dd></div><div><dt>磁碟機</dt><dd>外接 NVMe SSD。</dd></div><div><dt>外接盒</dt><dd>支援原生 NVMe 存取的 Thunderbolt 或 USB4 外接盒。能否讀取 SMART 資料取決於外接盒。</dd></div></dl>
+          <a href="/zh-hant/support/#missing-drive">為什麼找不到我的磁碟機？</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bar footer">
+    <div><a class="footer-name" href="/zh-hant/">NVMe Monitor</a><p>在 Mac 本機執行，無需帳號。</p></div>
+    <div><p>在捷徑中「取得磁碟機溫度」</p><a href="mailto:support@nvmemonitor.app">support@nvmemonitor.app</a></div>
+    <nav aria-label="頁尾"><a href="/zh-hant/" aria-current="page">總覽</a><a href="/zh-hant/support/">支援</a><a href="/zh-hant/privacy/">隱私權</a><a href="/zh-hant/press/">媒體資料包</a></nav>
+    <a class="store-button" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
+  </footer>
+</body>
+</html>

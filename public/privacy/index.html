@@ -3,53 +3,81 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
   <title>NVMe Monitor Privacy Policy</title>
-  <meta name="description" content="Learn what NVMe Monitor reads locally, how optional diagnostics and support email work, and how to control your data.">
+  <meta name="description" content="Learn what NVMe Monitor reads locally and how optional diagnostics, support email and privacy choices work.">
   <link rel="canonical" href="https://nvmemonitor.app/privacy/">
+  <link rel="alternate" hreflang="en" href="https://nvmemonitor.app/privacy/">
+  <link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/privacy/">
+  <link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/privacy/">
+  <link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/privacy/">
+  <link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/privacy/">
+  <link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/privacy/">
+  <link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/privacy/">
+  <link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/privacy/">
+  <link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/privacy/">
+  <link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/privacy/">
+  <link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/privacy/">
+  <link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/privacy/">
+  <link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/privacy/">
+  <link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/privacy/">
+  <link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/privacy/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/privacy/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/privacy/">
+  <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/privacy/">
   <link rel="icon" type="image/png" href="/assets/icon.png">
+  <script src="/assets/preferences.js"></script>
   <link rel="stylesheet" href="/assets/site.css">
-  <meta name="theme-color" content="#122b24">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NVMe Monitor">
   <meta property="og:url" content="https://nvmemonitor.app/privacy/">
   <meta property="og:title" content="NVMe Monitor Privacy Policy">
-  <meta property="og:description" content="Learn what NVMe Monitor reads locally, how optional diagnostics and support email work, and how to control your data.">
+  <meta property="og:description" content="Learn what NVMe Monitor reads locally and how optional diagnostics, support email and privacy choices work.">
   <meta property="og:image" content="https://nvmemonitor.app/assets/social.jpg">
   <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="750">
-  <meta property="og:image:alt" content="NVMe Monitor showing the temperature and SMART health of an external SSD">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="NVMe Monitor shows a connected external SSD, its composite and sensor temperatures, and SMART readings">
   <meta name="twitter:card" content="summary_large_image">
-
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <header class="bar">
+  <header class="bar masthead">
     <a class="brand" href="/"><img src="/assets/icon.png" alt="" width="36" height="36"> NVMe Monitor</a>
-    <nav aria-label="Main navigation"><a href="/">Overview</a><a href="/support/">Support</a><a href="/privacy/" aria-current="page">Privacy Policy</a></nav>
+    <nav aria-label="Main navigation"><a href="/" class="desktop-link">Overview</a><a href="/support/">Support</a><a href="/privacy/" aria-current="page" class="desktop-link">Privacy</a><a href="/press/" class="desktop-link">Press Kit</a></nav>
+    <div class="site-controls">
+      <details class="languages">
+        <summary aria-label="Language: English">English</summary>
+        <ul><li><a href="/privacy/" lang="en" hreflang="en" dir="auto" aria-current="page">English</a></li><li><a href="/ar/privacy/" lang="ar" hreflang="ar" dir="auto">العربية</a></li><li><a href="/de/privacy/" lang="de" hreflang="de" dir="auto">Deutsch</a></li><li><a href="/es/privacy/" lang="es" hreflang="es" dir="auto">Español</a></li><li><a href="/fr/privacy/" lang="fr" hreflang="fr" dir="auto">Français</a></li><li><a href="/hi/privacy/" lang="hi" hreflang="hi" dir="auto">हिन्दी</a></li><li><a href="/id/privacy/" lang="id" hreflang="id" dir="auto">Bahasa Indonesia</a></li><li><a href="/it/privacy/" lang="it" hreflang="it" dir="auto">Italiano</a></li><li><a href="/ja/privacy/" lang="ja" hreflang="ja" dir="auto">日本語</a></li><li><a href="/ko/privacy/" lang="ko" hreflang="ko" dir="auto">한국어</a></li><li><a href="/pt-br/privacy/" lang="pt-BR" hreflang="pt-BR" dir="auto">Português (Brasil)</a></li><li><a href="/ru/privacy/" lang="ru" hreflang="ru" dir="auto">Русский</a></li><li><a href="/tr/privacy/" lang="tr" hreflang="tr" dir="auto">Türkçe</a></li><li><a href="/uk/privacy/" lang="uk" hreflang="uk" dir="auto">Українська</a></li><li><a href="/vi/privacy/" lang="vi" hreflang="vi" dir="auto">Tiếng Việt</a></li><li><a href="/zh-hans/privacy/" lang="zh-Hans" hreflang="zh-Hans" dir="auto">简体中文</a></li><li><a href="/zh-hant/privacy/" lang="zh-Hant" hreflang="zh-Hant" dir="auto">繁體中文</a></li></ul>
+      </details>
+      <label class="theme-control" hidden>
+        <span class="sr-only">Appearance</span>
+        <select id="theme" aria-label="Appearance">
+          <option value="system">System</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </label>
+    </div>
   </header>
-  <main id="main"><article><h1>Privacy Policy</h1><p>Publisher: Ramiz Kichibekov</p><p>NVMe Monitor is a macOS utility for monitoring the temperature and SMART health of external NVMe SSDs. The app processes device information on your Mac. It does not automatically send that information to the publisher or to a third party.</p>
-<h2>Information the app uses</h2>
-<p>NVMe Monitor reads information needed to identify connected drives and display their status. This can include the drive model, manufacturer if available, connection type, capacity, and the macOS disk identifier for the current connection. It reads SMART information such as temperatures, health warnings, error counts, and usage counters. The app does not open files on the monitored drive or store its serial number.</p>
-<p>The app keeps your settings and a limited record of which warnings have already been sent in its local app data. This lets it restore your preferences and avoid repeating an ongoing warning after you reopen the app. The app does not maintain a history of SMART readings. A local boot-session value helps prevent the app from mistaking a different disk for the one you selected after a restart.</p>
-<h2>MetricKit diagnostics and support email</h2>
-<p>macOS may provide performance metrics and diagnostic reports about NVMe Monitor through Apple&#x27;s MetricKit framework. Reports can include timing and resource-use measurements, app and operating system information, and technical details such as crash or hang stack traces. NVMe Monitor does not add SSD readings, drive identifiers, or app preferences to the MetricKit export.</p>
-<p>The app stores up to five recent reports from the last seven days in its local sandbox. In Settings → Support &amp; Privacy, you can preview the JSON or delete the stored reports. Temporary copies created for attachments stay in local temporary storage and are cleaned up on subsequent launches or when you delete reports in the app. Copies already saved by a mail app or sent by email are outside NVMe Monitor&#x27;s control.</p>
-<p>Write Email opens an editable draft in your email app with the recipient field blank. The draft includes the NVMe Monitor and macOS versions. A diagnostics JSON file is included only if you select Attach MetricKit Diagnostics. You can review or remove it before sending. NVMe Monitor does not send the message or upload reports. If your email app cannot attach the file automatically, you can choose to reveal the local copy and attach it yourself.</p>
-<h2>Notifications and launch at login</h2>
-<p>If you enable notifications and grant permission in macOS, the app delivers warnings through macOS Notification Center. A notification may display the drive model and the related temperature or SMART warning. macOS controls where notifications appear, including whether previews can appear on the lock screen.</p>
-<p>Launch at login is optional. If you enable it, macOS manages the registration. You can turn it off in the app or in System Settings.</p>
-<h2>Collection and sharing</h2>
-<p>NVMe Monitor does not require an account and does not use advertising, tracking, or analytics. The app has no automatic uploads and does not sell data. You choose whether and where to share a support email and any optional attachments.</p>
-<p>If you send a support email to the publisher, the publisher uses the information you choose to provide to respond to your request and investigate the reported issue. This includes any diagnostics you choose to attach. You can use the privacy contact above to ask about or request deletion of information you sent to the publisher.</p>
-<h2>Retention and your choices</h2>
-<p>Settings and warning status stay in the app’s local data until that data is removed or the app updates the relevant records. macOS manages delivered notification history and login items separately. To stop monitoring, quit the app and turn off launch at login if you enabled it. You can revoke notification permission in System Settings and clear delivered alerts in Notification Center. To remove saved settings and warning status, remove the app’s local data when uninstalling it.</p>
-<p>Contact <a href="mailto:support@nvmemonitor.app">support@nvmemonitor.app</a> with privacy questions or for help removing local app data.</p>
-    <h2>Website and support services</h2>
-    <p>Cloudflare hosts this website and processes connection information to serve and protect it. The site contains no advertising or analytics scripts. When you email support, Cloudflare Email Routing forwards the message to the publisher’s Gmail inbox. The email providers process the message and any attachments to deliver and store them.</p>
-</article></main>
+  <main id="main">
+    <article>
+      <h1>Privacy Policy</h1>
+      <p>Publisher: Ramiz Kichibekov</p><p>NVMe Monitor processes external SSD readings on your Mac. It does not automatically send them to the publisher or third parties.</p>
+      <h2>Drive information and preferences</h2><p>The app reads device details such as the model, connection type, capacity and current macOS disk identifier, plus SMART temperatures, warnings, errors and usage counters. It does not open drive files, store serial numbers or retain a history of SMART readings. Preferences, the warning state and a boot-session identifier are stored locally to restore your choices, avoid duplicate warnings and distinguish drive connections.</p>
+      <h2>Optional MetricKit diagnostics</h2><p>macOS may provide performance reports and technical diagnostics such as crash or hang traces. The app does not add drive readings, identifiers or preferences. It keeps up to five reports from the last seven days locally. Use Settings → Support &amp; Privacy to preview or delete them. Temporary attachment copies are cleared on subsequent launches or when you delete reports. Copies saved or sent by your mail app are managed separately.</p>
+      <h2>Support email</h2><p>Write Email opens an editable draft with an empty recipient field and the app and macOS versions. The optional diagnostics JSON is included only if you select it. Review or remove it before sending. The app does not send the email or upload reports. If your mail app cannot attach the file, you can attach the local copy yourself. The publisher uses what you choose to share to respond and investigate the issue.</p>
+      <h2>Notifications and launch at login</h2><p>If you allow notifications, macOS delivers them and manages their visibility. They may show the drive model and the relevant reading or warning. Launch at login is optional and macOS manages the registration.</p>
+      <h2>Collection, retention and your choices</h2><p>The app requires no account and uses no advertising, tracking or analytics. It does not sell your data. Settings and warning state stay local until updated or removed. Use macOS to revoke notification permission, clear delivered alerts or remove the login item. To remove saved settings and warning state, remove local app data when uninstalling.</p>
+      <h2>Website and support services</h2><p>Cloudflare hosts this site and processes connection information to serve and protect it. The site uses no advertising or analytics scripts. Cloudflare Email Routing forwards support email to the publisher’s Gmail inbox. The providers process messages and attachments to deliver and store them.</p>
+      <p>The site saves your appearance and temperature-unit preferences in your browser.</p>
+      <p>Contact us with privacy questions or to request deletion of information you shared by email. <a href="mailto:support@nvmemonitor.app">support@nvmemonitor.app</a></p>
+    </article>
+  </main>
   <footer class="bar footer">
-    <small>© 2026 Ramiz Kichibekov</small>
-    <nav aria-label="Footer"><a href="/">Overview</a><a href="/support/">Support</a><a href="/privacy/" aria-current="page">Privacy Policy</a></nav>
+    <div><a class="footer-name" href="/">NVMe Monitor</a><p>Runs locally on your Mac. No account required.</p></div>
+    <div><p>Get Drive Temperature in Shortcuts</p><a href="mailto:support@nvmemonitor.app">support@nvmemonitor.app</a></div>
+    <nav aria-label="Footer"><a href="/">Overview</a><a href="/support/">Support</a><a href="/privacy/" aria-current="page">Privacy</a><a href="/press/">Press Kit</a></nav>
+    <a class="store-button" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
   </footer>
 </body>
 </html>

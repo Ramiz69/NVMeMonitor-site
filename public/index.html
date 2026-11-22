@@ -3,12 +3,31 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
   <title>NVMe Monitor — External SSD temperature and SMART for Mac</title>
   <meta name="description" content="See external NVMe SSD temperature and SMART health in your Mac menu bar. Monitor compatible drives, set local alerts, and read temperature in Shortcuts.">
   <link rel="canonical" href="https://nvmemonitor.app/">
+  <link rel="alternate" hreflang="en" href="https://nvmemonitor.app/">
+  <link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/">
+  <link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/">
+  <link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/">
+  <link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/">
+  <link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/">
+  <link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/">
+  <link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/">
+  <link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/">
+  <link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/">
+  <link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/">
+  <link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/">
+  <link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/">
+  <link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/">
+  <link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/">
+  <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/">
   <link rel="icon" type="image/png" href="/assets/icon.png">
+  <script src="/assets/preferences.js"></script>
   <link rel="stylesheet" href="/assets/site.css">
-  <meta name="theme-color" content="#122b24">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NVMe Monitor">
   <meta property="og:url" content="https://nvmemonitor.app/">
@@ -16,42 +35,81 @@
   <meta property="og:description" content="See external NVMe SSD temperature and SMART health in your Mac menu bar. Monitor compatible drives, set local alerts, and read temperature in Shortcuts.">
   <meta property="og:image" content="https://nvmemonitor.app/assets/social.jpg">
   <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="750">
-  <meta property="og:image:alt" content="NVMe Monitor showing the temperature and SMART health of an external SSD">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="NVMe Monitor shows a connected external SSD, its composite and sensor temperatures, and SMART readings">
   <meta name="twitter:card" content="summary_large_image">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "NVMe Monitor", "url": "https://nvmemonitor.app/", "applicationCategory": "UtilitiesApplication", "operatingSystem": "macOS 27 or later", "description": "Monitors temperatures and SMART health for compatible external NVMe SSDs.", "image": "https://nvmemonitor.app/assets/social.jpg"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"NVMe Monitor","url":"https://nvmemonitor.app/","inLanguage":"en","applicationCategory":"UtilitiesApplication","operatingSystem":"macOS 27+","description":"See external NVMe SSD temperature and SMART health in your Mac menu bar. Monitor compatible drives, set local alerts, and read temperature in Shortcuts.","image":"https://nvmemonitor.app/assets/social.jpg"}</script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <header class="bar">
+  <header class="bar masthead">
     <a class="brand" href="/"><img src="/assets/icon.png" alt="" width="36" height="36"> NVMe Monitor</a>
-    <nav aria-label="Main navigation"><a href="/" aria-current="page">Overview</a><a href="/support/">Support</a><a href="/privacy/">Privacy Policy</a></nav>
+    <nav aria-label="Main navigation"><a class="desktop-link" href="#compatibility">Compatibility</a><a href="/support/">Support</a><a href="/privacy/" class="desktop-link">Privacy</a><a href="/press/" class="desktop-link">Press Kit</a></nav>
+    <div class="site-controls">
+      <details class="languages">
+        <summary aria-label="Language: English">English</summary>
+        <ul><li><a href="/" lang="en" hreflang="en" dir="auto" aria-current="page">English</a></li><li><a href="/ar/" lang="ar" hreflang="ar" dir="auto">العربية</a></li><li><a href="/de/" lang="de" hreflang="de" dir="auto">Deutsch</a></li><li><a href="/es/" lang="es" hreflang="es" dir="auto">Español</a></li><li><a href="/fr/" lang="fr" hreflang="fr" dir="auto">Français</a></li><li><a href="/hi/" lang="hi" hreflang="hi" dir="auto">हिन्दी</a></li><li><a href="/id/" lang="id" hreflang="id" dir="auto">Bahasa Indonesia</a></li><li><a href="/it/" lang="it" hreflang="it" dir="auto">Italiano</a></li><li><a href="/ja/" lang="ja" hreflang="ja" dir="auto">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko" dir="auto">한국어</a></li><li><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" dir="auto">Português (Brasil)</a></li><li><a href="/ru/" lang="ru" hreflang="ru" dir="auto">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr" dir="auto">Türkçe</a></li><li><a href="/uk/" lang="uk" hreflang="uk" dir="auto">Українська</a></li><li><a href="/vi/" lang="vi" hreflang="vi" dir="auto">Tiếng Việt</a></li><li><a href="/zh-hans/" lang="zh-Hans" hreflang="zh-Hans" dir="auto">简体中文</a></li><li><a href="/zh-hant/" lang="zh-Hant" hreflang="zh-Hant" dir="auto">繁體中文</a></li></ul>
+      </details>
+      <label class="theme-control" hidden>
+        <span class="sr-only">Appearance</span>
+        <select id="theme" aria-label="Appearance">
+          <option value="system">System</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </label>
+    </div>
   </header>
   <main id="main">
-  <section class="hero">
-    <div>
-      <h1>External SSD temperature in your Mac menu bar</h1>
-      <p>Check the temperature and SMART health of compatible external NVMe drives, and get a local alert when a drive runs hot.</p>
-      <a class="button" href="/support/#compatibility">Check compatibility</a>
-      <small class="platform">Requires macOS 27 or later</small>
-    </div>
-    <figure>
-      <img src="/assets/smart.webp" width="820" height="972" alt="NVMe Monitor shows 46 degrees Celsius and SMART health for a Samsung 990 PRO">
-      <figcaption>SMART readings from a Samsung 990 PRO.</figcaption>
-    </figure>
-  </section>
-  <section class="features" aria-labelledby="features">
-    <h2 id="features">Drive health at a glance</h2>
-    <div class="columns">
-      <div><h3>Monitor multiple drives</h3><p>Choose one temperature for the menu bar and open the panel to inspect every detected drive.</p></div>
-      <div><h3>Catch temperature and SMART warnings</h3><p>Set a temperature threshold and get local notifications for each drive.</p></div>
-      <div><h3>Use temperature in Shortcuts</h3><p>Get a drive’s composite temperature as a measurement you can pass to another action.</p></div>
-    </div>
-  </section>
-</main>
+    <section class="hero">
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">External storage / macOS</p>
+          <h1>Know how hot<br> your SSD runs.</h1>
+          <p class="intro">See temperature and SMART health for your external NVMe drives, right in the Mac menu bar.</p>
+          <div class="hero-actions">
+            <a class="button" href="#compatibility">Check compatibility<img src="/assets/arrow.svg" width="16" height="16" alt=""></a>
+            <a class="store-button" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
+          </div>
+        </div>
+        <figure class="hero-image">
+          <picture class="contours" aria-hidden="true">
+            <source media="(max-width: 45rem)" srcset="/assets/contours-mobile.svg">
+            <img src="/assets/contours-desktop.svg" width="668" height="580" alt="">
+          </picture>
+          <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor shows a connected external SSD, its composite and sensor temperatures, and SMART readings">
+          <figcaption>
+            <span>Example SMART reading / 2 TB external NVMe</span>
+            <label class="temperature-control" hidden>
+              <span class="sr-only">Temperature unit</span>
+              <select id="temperature-unit" aria-label="Temperature unit">
+                <option value="celsius">Celsius (°C)</option>
+                <option value="fahrenheit">Fahrenheit (°F)</option>
+              </select>
+            </label>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="features" aria-labelledby="features">
+      <h2 id="features">One menu for every connected drive.</h2>
+      <div class="columns"><div><h3>Temperature</h3><p>See the composite temperature and additional sensors your drive reports.</p></div><div><h3>SMART health</h3><p>Check wear, spare capacity, power-on hours and media errors in one place.</p></div><div><h3>Local alerts</h3><p>Set a heat threshold and get a notification when a drive reports a warning.</p></div></div>
+    </section>
+    <section class="compatibility" id="compatibility" aria-labelledby="compatibility-title">
+      <div class="compatibility-layout">
+        <div><p class="eyebrow">Compatibility</p><h2 id="compatibility-title">Will it read my drive?</h2></div>
+        <div class="requirements">
+          <dl><div><dt>Mac</dt><dd>macOS 27 or later.</dd></div><div><dt>Drive</dt><dd>External NVMe SSD.</dd></div><div><dt>Enclosure</dt><dd>Thunderbolt or USB4 with native NVMe access. SMART availability depends on the enclosure.</dd></div></dl>
+          <a href="/support/#missing-drive">Why is my drive missing?</a>
+        </div>
+      </div>
+    </section>
+  </main>
   <footer class="bar footer">
-    <small>© 2026 Ramiz Kichibekov</small>
-    <nav aria-label="Footer"><a href="/" aria-current="page">Overview</a><a href="/support/">Support</a><a href="/privacy/">Privacy Policy</a></nav>
+    <div><a class="footer-name" href="/">NVMe Monitor</a><p>Runs locally on your Mac. No account required.</p></div>
+    <div><p>Get Drive Temperature in Shortcuts</p><a href="mailto:support@nvmemonitor.app">support@nvmemonitor.app</a></div>
+    <nav aria-label="Footer"><a href="/" aria-current="page">Overview</a><a href="/support/">Support</a><a href="/privacy/">Privacy</a><a href="/press/">Press Kit</a></nav>
+    <a class="store-button" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
   </footer>
 </body>
 </html>

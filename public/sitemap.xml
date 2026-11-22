@@ -1,6 +1,1431 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://nvmemonitor.app/</loc></url>
-  <url><loc>https://nvmemonitor.app/support/</loc></url>
-  <url><loc>https://nvmemonitor.app/privacy/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://nvmemonitor.app/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/support/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/press/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/press/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/press/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/press/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/press/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/press/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/press/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/press/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/ar/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/support/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/ar/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/ar/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/press/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/press/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/press/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/press/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/press/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/press/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/press/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/press/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/de/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/support/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/de/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/de/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/press/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/press/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/press/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/press/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/press/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/press/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/press/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/press/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/es/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/support/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/es/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/es/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/press/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/press/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/press/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/press/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/press/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/press/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/press/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/press/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/fr/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/support/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/fr/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/fr/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/press/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/press/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/press/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/press/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/press/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/press/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/press/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/press/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/hi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/hi/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/support/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/hi/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/hi/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/press/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/press/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/press/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/press/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/press/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/press/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/press/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/press/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/id/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/id/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/support/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/id/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/id/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/press/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/press/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/press/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/press/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/press/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/press/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/press/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/press/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/it/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/it/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/support/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/it/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/it/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/press/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/press/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/press/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/press/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/press/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/press/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/press/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/press/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/ja/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/support/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/ja/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/ja/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/press/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/press/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/press/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/press/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/press/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/press/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/press/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/press/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/ko/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/ko/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/support/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/ko/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/ko/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/press/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/press/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/press/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/press/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/press/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/press/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/press/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/press/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/pt-br/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/pt-br/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/support/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/pt-br/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/pt-br/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/press/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/press/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/press/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/press/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/press/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/press/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/press/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/press/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/ru/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/support/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/ru/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/ru/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/press/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/press/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/press/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/press/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/press/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/press/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/press/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/press/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/tr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/tr/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/support/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/tr/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/tr/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/press/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/press/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/press/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/press/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/press/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/press/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/press/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/press/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/uk/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/uk/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/support/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/uk/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/uk/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/press/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/press/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/press/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/press/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/press/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/press/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/press/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/press/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/vi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/vi/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/support/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/vi/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/vi/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/press/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/press/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/press/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/press/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/press/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/press/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/press/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/press/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/zh-hans/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/zh-hans/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/support/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/zh-hans/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/zh-hans/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/press/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/press/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/press/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/press/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/press/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/press/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/press/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/press/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/zh-hant/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/zh-hant/support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/support/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/zh-hant/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://nvmemonitor.app/zh-hant/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nvmemonitor.app/press/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/press/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/press/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/press/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/press/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/press/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/press/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/press/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/press/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/press/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/press/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/press/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/press/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/press/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/press/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/press/"/>
+  </url>
 </urlset>

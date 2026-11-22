@@ -1,0 +1,14 @@
+NVMe Monitor for macOS
+
+Developer: Ramiz Kichibekov
+Platform: macOS 27 or later
+Version: 1.0, in preparation for the Mac App Store
+App interface: 17 languages
+Website: https://nvmemonitor.app/
+Contact: support@nvmemonitor.app
+
+NVMe Monitor puts the temperature of an external NVMe SSD in the Mac menu bar and shows SMART readings, usage counters, and local warnings for each compatible connected drive. It supports the Get Drive Temperature action in Shortcuts.
+
+The app requires an external NVMe SSD in an enclosure that exposes native NVMe to macOS. SMART compatibility depends on the enclosure. Monitoring runs locally and requires no account.
+
+Screenshots and icons may be used in editorial coverage of NVMe Monitor. Drive identification was anonymized in the SMART screenshot.

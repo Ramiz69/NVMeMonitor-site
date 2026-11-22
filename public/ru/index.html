@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>NVMe Monitor для Mac — температура и SMART внешних SSD</title>
+  <meta name="description" content="Температура и показатели SMART внешних NVMe SSD прямо в строке меню Mac. Следите за совместимыми накопителями, настройте локальные оповещения и получайте температуру в «Командах».">
+  <link rel="canonical" href="https://nvmemonitor.app/ru/">
+  <link rel="alternate" hreflang="en" href="https://nvmemonitor.app/">
+  <link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/">
+  <link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/">
+  <link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/">
+  <link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/">
+  <link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/">
+  <link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/">
+  <link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/">
+  <link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/">
+  <link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/">
+  <link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/">
+  <link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/">
+  <link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/">
+  <link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/">
+  <link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/">
+  <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/">
+  <link rel="icon" type="image/png" href="/assets/icon.png">
+  <script src="/assets/preferences.js"></script>
+  <link rel="stylesheet" href="/assets/site.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="NVMe Monitor">
+  <meta property="og:url" content="https://nvmemonitor.app/ru/">
+  <meta property="og:title" content="NVMe Monitor для Mac — температура и SMART внешних SSD">
+  <meta property="og:description" content="Температура и показатели SMART внешних NVMe SSD прямо в строке меню Mac. Следите за совместимыми накопителями, настройте локальные оповещения и получайте температуру в «Командах».">
+  <meta property="og:image" content="https://nvmemonitor.app/assets/social.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="NVMe Monitor показывает подключённый внешний SSD, общую температуру и показания датчиков, а также данные SMART">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"NVMe Monitor","url":"https://nvmemonitor.app/ru/","inLanguage":"ru","applicationCategory":"UtilitiesApplication","operatingSystem":"macOS 27+","description":"Температура и показатели SMART внешних NVMe SSD прямо в строке меню Mac. Следите за совместимыми накопителями, настройте локальные оповещения и получайте температуру в «Командах».","image":"https://nvmemonitor.app/assets/social.jpg"}</script>
+</head>
+<body>
+  <a class="skip" href="#main">Перейти к содержанию</a>
+  <header class="bar masthead">
+    <a class="brand" href="/ru/"><img src="/assets/icon.png" alt="" width="36" height="36"> NVMe Monitor</a>
+    <nav aria-label="Основная навигация"><a class="desktop-link" href="#compatibility">Совместимость</a><a href="/ru/support/">Поддержка</a><a href="/ru/privacy/" class="desktop-link">Конфиденциальность</a><a href="/ru/press/" class="desktop-link">Пресс-кит</a></nav>
+    <div class="site-controls">
+      <details class="languages">
+        <summary aria-label="Язык: Русский">Русский</summary>
+        <ul><li><a href="/" lang="en" hreflang="en" dir="auto">English</a></li><li><a href="/ar/" lang="ar" hreflang="ar" dir="auto">العربية</a></li><li><a href="/de/" lang="de" hreflang="de" dir="auto">Deutsch</a></li><li><a href="/es/" lang="es" hreflang="es" dir="auto">Español</a></li><li><a href="/fr/" lang="fr" hreflang="fr" dir="auto">Français</a></li><li><a href="/hi/" lang="hi" hreflang="hi" dir="auto">हिन्दी</a></li><li><a href="/id/" lang="id" hreflang="id" dir="auto">Bahasa Indonesia</a></li><li><a href="/it/" lang="it" hreflang="it" dir="auto">Italiano</a></li><li><a href="/ja/" lang="ja" hreflang="ja" dir="auto">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko" dir="auto">한국어</a></li><li><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" dir="auto">Português (Brasil)</a></li><li><a href="/ru/" lang="ru" hreflang="ru" dir="auto" aria-current="page">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr" dir="auto">Türkçe</a></li><li><a href="/uk/" lang="uk" hreflang="uk" dir="auto">Українська</a></li><li><a href="/vi/" lang="vi" hreflang="vi" dir="auto">Tiếng Việt</a></li><li><a href="/zh-hans/" lang="zh-Hans" hreflang="zh-Hans" dir="auto">简体中文</a></li><li><a href="/zh-hant/" lang="zh-Hant" hreflang="zh-Hant" dir="auto">繁體中文</a></li></ul>
+      </details>
+      <label class="theme-control" hidden>
+        <span class="sr-only">Оформление</span>
+        <select id="theme" aria-label="Оформление">
+          <option value="system">Как в системе</option>
+          <option value="light">Светлое</option>
+          <option value="dark">Тёмное</option>
+        </select>
+      </label>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Внешние накопители / macOS</p>
+          <h1>Узнайте, как сильно<br> нагревается ваш SSD.</h1>
+          <p class="intro">Проверяйте температуру и состояние внешних NVMe-накопителей по данным SMART прямо из строки меню Mac.</p>
+          <div class="hero-actions">
+            <a class="button" href="#compatibility">Проверить совместимость<img src="/assets/arrow.svg" width="16" height="16" alt=""></a>
+            <a class="store-button" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
+          </div>
+        </div>
+        <figure class="hero-image">
+          <picture class="contours" aria-hidden="true">
+            <source media="(max-width: 45rem)" srcset="/assets/contours-mobile.svg">
+            <img src="/assets/contours-desktop.svg" width="668" height="580" alt="">
+          </picture>
+          <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor показывает подключённый внешний SSD, общую температуру и показания датчиков, а также данные SMART">
+          <figcaption>
+            <span>Пример данных SMART / внешний NVMe-накопитель на 2 ТБ</span>
+            <label class="temperature-control" hidden>
+              <span class="sr-only">Единица измерения температуры</span>
+              <select id="temperature-unit" aria-label="Единица измерения температуры">
+                <option value="celsius">Цельсий (°C)</option>
+                <option value="fahrenheit">Фаренгейт (°F)</option>
+              </select>
+            </label>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="features" aria-labelledby="features">
+      <h2 id="features">Все подключённые накопители в одном меню.</h2>
+      <div class="columns"><div><h3>Температура</h3><p>Смотрите общую температуру и показания дополнительных датчиков, если накопитель их передаёт.</p></div><div><h3>Состояние по SMART</h3><p>В одном окне видны износ, резервная ёмкость, время работы и ошибки носителя.</p></div><div><h3>Локальные оповещения</h3><p>Установите порог температуры и получайте уведомления, когда накопитель сообщает о проблеме.</p></div></div>
+    </section>
+    <section class="compatibility" id="compatibility" aria-labelledby="compatibility-title">
+      <div class="compatibility-layout">
+        <div><p class="eyebrow">Совместимость</p><h2 id="compatibility-title">Подойдёт ли мой накопитель?</h2></div>
+        <div class="requirements">
+          <dl><div><dt>Mac</dt><dd>macOS 27 или новее.</dd></div><div><dt>Накопитель</dt><dd>Внешний NVMe SSD.</dd></div><div><dt>Корпус</dt><dd>Thunderbolt или USB4 с прямым доступом к NVMe. Доступность SMART зависит от корпуса.</dd></div></dl>
+          <a href="/ru/support/#missing-drive">Почему мой накопитель не отображается?</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bar footer">
+    <div><a class="footer-name" href="/ru/">NVMe Monitor</a><p>Работает локально на Mac. Учётная запись не нужна.</p></div>
+    <div><p>Действие «Получить температуру накопителя» в «Командах»</p><a href="mailto:support@nvmemonitor.app">support@nvmemonitor.app</a></div>
+    <nav aria-label="Нижняя часть страницы"><a href="/ru/" aria-current="page">Обзор</a><a href="/ru/support/">Поддержка</a><a href="/ru/privacy/">Конфиденциальность</a><a href="/ru/press/">Пресс-кит</a></nav>
+    <a class="store-button" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>NVMe Monitor – Temperatur und SMART-Status externer SSDs auf dem Mac</title>
+  <meta name="description" content="Temperatur und SMART-Status deiner externen NVMe-SSDs direkt in der Mac-Menüleiste. Überwache kompatible Laufwerke, richte lokale Warnungen ein und rufe die Temperatur mit Kurzbefehle ab.">
+  <link rel="canonical" href="https://nvmemonitor.app/de/">
+  <link rel="alternate" hreflang="en" href="https://nvmemonitor.app/">
+  <link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/">
+  <link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/">
+  <link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/">
+  <link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/">
+  <link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/">
+  <link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/">
+  <link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/">
+  <link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/">
+  <link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/">
+  <link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/">
+  <link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/">
+  <link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/">
+  <link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/">
+  <link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/">
+  <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/">
+  <link rel="icon" type="image/png" href="/assets/icon.png">
+  <script src="/assets/preferences.js"></script>
+  <link rel="stylesheet" href="/assets/site.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="NVMe Monitor">
+  <meta property="og:url" content="https://nvmemonitor.app/de/">
+  <meta property="og:title" content="NVMe Monitor – Temperatur und SMART-Status externer SSDs auf dem Mac">
+  <meta property="og:description" content="Temperatur und SMART-Status deiner externen NVMe-SSDs direkt in der Mac-Menüleiste. Überwache kompatible Laufwerke, richte lokale Warnungen ein und rufe die Temperatur mit Kurzbefehle ab.">
+  <meta property="og:image" content="https://nvmemonitor.app/assets/social.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="NVMe Monitor zeigt eine angeschlossene externe SSD mit Gesamttemperatur, zusätzlichen Sensortemperaturen und SMART-Daten">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"NVMe Monitor","url":"https://nvmemonitor.app/de/","inLanguage":"de","applicationCategory":"UtilitiesApplication","operatingSystem":"macOS 27+","description":"Temperatur und SMART-Status deiner externen NVMe-SSDs direkt in der Mac-Menüleiste. Überwache kompatible Laufwerke, richte lokale Warnungen ein und rufe die Temperatur mit Kurzbefehle ab.","image":"https://nvmemonitor.app/assets/social.jpg"}</script>
+</head>
+<body>
+  <a class="skip" href="#main">Zum Inhalt springen</a>
+  <header class="bar masthead">
+    <a class="brand" href="/de/"><img src="/assets/icon.png" alt="" width="36" height="36"> NVMe Monitor</a>
+    <nav aria-label="Hauptnavigation"><a class="desktop-link" href="#compatibility">Kompatibilität</a><a href="/de/support/">Support</a><a href="/de/privacy/" class="desktop-link">Datenschutz</a><a href="/de/press/" class="desktop-link">Pressemappe</a></nav>
+    <div class="site-controls">
+      <details class="languages">
+        <summary aria-label="Sprache: Deutsch">Deutsch</summary>
+        <ul><li><a href="/" lang="en" hreflang="en" dir="auto">English</a></li><li><a href="/ar/" lang="ar" hreflang="ar" dir="auto">العربية</a></li><li><a href="/de/" lang="de" hreflang="de" dir="auto" aria-current="page">Deutsch</a></li><li><a href="/es/" lang="es" hreflang="es" dir="auto">Español</a></li><li><a href="/fr/" lang="fr" hreflang="fr" dir="auto">Français</a></li><li><a href="/hi/" lang="hi" hreflang="hi" dir="auto">हिन्दी</a></li><li><a href="/id/" lang="id" hreflang="id" dir="auto">Bahasa Indonesia</a></li><li><a href="/it/" lang="it" hreflang="it" dir="auto">Italiano</a></li><li><a href="/ja/" lang="ja" hreflang="ja" dir="auto">日本語</a></li><li><a href="/ko/" lang="ko" hreflang="ko" dir="auto">한국어</a></li><li><a href="/pt-br/" lang="pt-BR" hreflang="pt-BR" dir="auto">Português (Brasil)</a></li><li><a href="/ru/" lang="ru" hreflang="ru" dir="auto">Русский</a></li><li><a href="/tr/" lang="tr" hreflang="tr" dir="auto">Türkçe</a></li><li><a href="/uk/" lang="uk" hreflang="uk" dir="auto">Українська</a></li><li><a href="/vi/" lang="vi" hreflang="vi" dir="auto">Tiếng Việt</a></li><li><a href="/zh-hans/" lang="zh-Hans" hreflang="zh-Hans" dir="auto">简体中文</a></li><li><a href="/zh-hant/" lang="zh-Hant" hreflang="zh-Hant" dir="auto">繁體中文</a></li></ul>
+      </details>
+      <label class="theme-control" hidden>
+        <span class="sr-only">Erscheinungsbild</span>
+        <select id="theme" aria-label="Erscheinungsbild">
+          <option value="system">System</option>
+          <option value="light">Hell</option>
+          <option value="dark">Dunkel</option>
+        </select>
+      </label>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Externe Laufwerke / macOS</p>
+          <h1>Wie warm wird<br> deine SSD?</h1>
+          <p class="intro">Behalte Temperatur und SMART-Status deiner externen NVMe-Laufwerke direkt in der Menüleiste deines Mac im Blick.</p>
+          <div class="hero-actions">
+            <a class="button" href="#compatibility">Kompatibilität prüfen<img src="/assets/arrow.svg" width="16" height="16" alt=""></a>
+            <a class="store-button" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
+          </div>
+        </div>
+        <figure class="hero-image">
+          <picture class="contours" aria-hidden="true">
+            <source media="(max-width: 45rem)" srcset="/assets/contours-mobile.svg">
+            <img src="/assets/contours-desktop.svg" width="668" height="580" alt="">
+          </picture>
+          <img id="smart-preview" class="popover" src="/assets/smart.webp" width="820" height="972" fetchpriority="high" alt="NVMe Monitor zeigt eine angeschlossene externe SSD mit Gesamttemperatur, zusätzlichen Sensortemperaturen und SMART-Daten">
+          <figcaption>
+            <span>Beispiel für SMART-Daten / externe NVMe-SSD mit 2 TB</span>
+            <label class="temperature-control" hidden>
+              <span class="sr-only">Temperatureinheit</span>
+              <select id="temperature-unit" aria-label="Temperatureinheit">
+                <option value="celsius">Celsius (°C)</option>
+                <option value="fahrenheit">Fahrenheit (°F)</option>
+              </select>
+            </label>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="features" aria-labelledby="features">
+      <h2 id="features">Ein Menü für alle angeschlossenen Laufwerke.</h2>
+      <div class="columns"><div><h3>Temperatur</h3><p>Rufe die Gesamttemperatur und die Messwerte weiterer Sensoren ab, sofern dein Laufwerk sie meldet.</p></div><div><h3>SMART-Status</h3><p>Verschleiß, Reservekapazität, Betriebsstunden und Medienfehler auf einen Blick.</p></div><div><h3>Lokale Warnungen</h3><p>Lege einen Temperaturgrenzwert fest und lass dich benachrichtigen, wenn ein Laufwerk eine Warnung meldet.</p></div></div>
+    </section>
+    <section class="compatibility" id="compatibility" aria-labelledby="compatibility-title">
+      <div class="compatibility-layout">
+        <div><p class="eyebrow">Kompatibilität</p><h2 id="compatibility-title">Wird mein Laufwerk unterstützt?</h2></div>
+        <div class="requirements">
+          <dl><div><dt>Mac</dt><dd>macOS 27 oder neuer.</dd></div><div><dt>Laufwerk</dt><dd>Externe NVMe-SSD.</dd></div><div><dt>Gehäuse</dt><dd>Thunderbolt oder USB4 mit nativem Zugriff auf NVMe. Ob SMART-Daten verfügbar sind, hängt vom Gehäuse ab.</dd></div></dl>
+          <a href="/de/support/#missing-drive">Warum wird mein Laufwerk nicht angezeigt?</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bar footer">
+    <div><a class="footer-name" href="/de/">NVMe Monitor</a><p>Läuft lokal auf deinem Mac. Du brauchst kein Konto.</p></div>
+    <div><p>Laufwerkstemperatur mit Kurzbefehle abrufen</p><a href="mailto:support@nvmemonitor.app">support@nvmemonitor.app</a></div>
+    <nav aria-label="Fußbereich"><a href="/de/" aria-current="page">Übersicht</a><a href="/de/support/">Support</a><a href="/de/privacy/">Datenschutz</a><a href="/de/press/">Pressemappe</a></nav>
+    <a class="store-button" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
+  </footer>
+</body>
+</html>

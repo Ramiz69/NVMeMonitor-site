@@ -3,12 +3,31 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
   <title>NVMe Monitor Support and SSD Compatibility</title>
   <meta name="description" content="Check external NVMe enclosure compatibility, troubleshoot missing SMART data, and contact NVMe Monitor support.">
   <link rel="canonical" href="https://nvmemonitor.app/support/">
+  <link rel="alternate" hreflang="en" href="https://nvmemonitor.app/support/">
+  <link rel="alternate" hreflang="ar" href="https://nvmemonitor.app/ar/support/">
+  <link rel="alternate" hreflang="de" href="https://nvmemonitor.app/de/support/">
+  <link rel="alternate" hreflang="es" href="https://nvmemonitor.app/es/support/">
+  <link rel="alternate" hreflang="fr" href="https://nvmemonitor.app/fr/support/">
+  <link rel="alternate" hreflang="hi" href="https://nvmemonitor.app/hi/support/">
+  <link rel="alternate" hreflang="id" href="https://nvmemonitor.app/id/support/">
+  <link rel="alternate" hreflang="it" href="https://nvmemonitor.app/it/support/">
+  <link rel="alternate" hreflang="ja" href="https://nvmemonitor.app/ja/support/">
+  <link rel="alternate" hreflang="ko" href="https://nvmemonitor.app/ko/support/">
+  <link rel="alternate" hreflang="pt-BR" href="https://nvmemonitor.app/pt-br/support/">
+  <link rel="alternate" hreflang="ru" href="https://nvmemonitor.app/ru/support/">
+  <link rel="alternate" hreflang="tr" href="https://nvmemonitor.app/tr/support/">
+  <link rel="alternate" hreflang="uk" href="https://nvmemonitor.app/uk/support/">
+  <link rel="alternate" hreflang="vi" href="https://nvmemonitor.app/vi/support/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://nvmemonitor.app/zh-hans/support/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://nvmemonitor.app/zh-hant/support/">
+  <link rel="alternate" hreflang="x-default" href="https://nvmemonitor.app/support/">
   <link rel="icon" type="image/png" href="/assets/icon.png">
+  <script src="/assets/preferences.js"></script>
   <link rel="stylesheet" href="/assets/site.css">
-  <meta name="theme-color" content="#122b24">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NVMe Monitor">
   <meta property="og:url" content="https://nvmemonitor.app/support/">
@@ -16,40 +35,48 @@
   <meta property="og:description" content="Check external NVMe enclosure compatibility, troubleshoot missing SMART data, and contact NVMe Monitor support.">
   <meta property="og:image" content="https://nvmemonitor.app/assets/social.jpg">
   <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="750">
-  <meta property="og:image:alt" content="NVMe Monitor showing the temperature and SMART health of an external SSD">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="NVMe Monitor shows a connected external SSD, its composite and sensor temperatures, and SMART readings">
   <meta name="twitter:card" content="summary_large_image">
-
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <header class="bar">
+  <header class="bar masthead">
     <a class="brand" href="/"><img src="/assets/icon.png" alt="" width="36" height="36"> NVMe Monitor</a>
-    <nav aria-label="Main navigation"><a href="/">Overview</a><a href="/support/" aria-current="page">Support</a><a href="/privacy/">Privacy Policy</a></nav>
+    <nav aria-label="Main navigation"><a href="/" class="desktop-link">Overview</a><a href="/support/" aria-current="page">Support</a><a href="/privacy/" class="desktop-link">Privacy</a><a href="/press/" class="desktop-link">Press Kit</a></nav>
+    <div class="site-controls">
+      <details class="languages">
+        <summary aria-label="Language: English">English</summary>
+        <ul><li><a href="/support/" lang="en" hreflang="en" dir="auto" aria-current="page">English</a></li><li><a href="/ar/support/" lang="ar" hreflang="ar" dir="auto">العربية</a></li><li><a href="/de/support/" lang="de" hreflang="de" dir="auto">Deutsch</a></li><li><a href="/es/support/" lang="es" hreflang="es" dir="auto">Español</a></li><li><a href="/fr/support/" lang="fr" hreflang="fr" dir="auto">Français</a></li><li><a href="/hi/support/" lang="hi" hreflang="hi" dir="auto">हिन्दी</a></li><li><a href="/id/support/" lang="id" hreflang="id" dir="auto">Bahasa Indonesia</a></li><li><a href="/it/support/" lang="it" hreflang="it" dir="auto">Italiano</a></li><li><a href="/ja/support/" lang="ja" hreflang="ja" dir="auto">日本語</a></li><li><a href="/ko/support/" lang="ko" hreflang="ko" dir="auto">한국어</a></li><li><a href="/pt-br/support/" lang="pt-BR" hreflang="pt-BR" dir="auto">Português (Brasil)</a></li><li><a href="/ru/support/" lang="ru" hreflang="ru" dir="auto">Русский</a></li><li><a href="/tr/support/" lang="tr" hreflang="tr" dir="auto">Türkçe</a></li><li><a href="/uk/support/" lang="uk" hreflang="uk" dir="auto">Українська</a></li><li><a href="/vi/support/" lang="vi" hreflang="vi" dir="auto">Tiếng Việt</a></li><li><a href="/zh-hans/support/" lang="zh-Hans" hreflang="zh-Hans" dir="auto">简体中文</a></li><li><a href="/zh-hant/support/" lang="zh-Hant" hreflang="zh-Hant" dir="auto">繁體中文</a></li></ul>
+      </details>
+      <label class="theme-control" hidden>
+        <span class="sr-only">Appearance</span>
+        <select id="theme" aria-label="Appearance">
+          <option value="system">System</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </label>
+    </div>
   </header>
   <main id="main">
-  <article>
-    <h1>NVMe Monitor Support</h1>
-    <p>Tell us what you were trying to do and what happened. Include your Mac model, macOS version, SSD model and enclosure model if they are relevant.</p>
-    <p><a class="button" href="mailto:support@nvmemonitor.app">Email support@nvmemonitor.app</a></p>
-    <h2 id="compatibility">Which drives work?</h2>
-    <p>NVMe Monitor requires macOS 27 or later and an external NVMe SSD that macOS can see as native NVMe. Compatible Thunderbolt and USB4 enclosures can expose the controller over a PCIe connection. Some enclosures hide SMART data even when Finder can access your files.</p>
-    <h2>My drive or its SMART data is missing</h2>
-    <ul>
-      <li>Confirm the SSD appears as a physical drive in Disk Utility.</li>
-      <li>Use a directly connected port and an appropriate Thunderbolt or USB4 cable if your enclosure supports them.</li>
-      <li>Open NVMe Monitor and choose Refresh. If you had manually selected a drive that reconnected, choose it again under Settings → Monitoring.</li>
-    </ul>
-    <h2>Notifications and temperature units</h2>
-    <p>Enable notifications in Settings → Alerts and allow them in macOS. Under Settings → Monitoring, choose Celsius, Fahrenheit or your Mac’s regional setting.</p>
-    <h2>Optional diagnostics</h2>
-    <p>In Settings → Support &amp; Privacy, you can preview or clear local MetricKit reports. Choose Attach MetricKit Diagnostics before writing an email if you want to include a report. Enter the support address above in your mail draft, and review the message and attachment before sending.</p>
-    <p><a href="/privacy/">Read the Privacy Policy</a></p>
-  </article>
-</main>
+    <article>
+      <h1>NVMe Monitor Support</h1>
+      <p>Tell us what you were trying to do and what happened. Include your Mac model, macOS version, SSD model and enclosure model if they are relevant.</p>
+      <p><a class="button" href="mailto:support@nvmemonitor.app">Email support · <bdi>support@nvmemonitor.app</bdi></a></p>
+      <h2 id="compatibility">Which drives work?</h2><p>NVMe Monitor needs macOS 27 or later and an external SSD that macOS can see as native NVMe. Compatible Thunderbolt and USB4 enclosures can expose the controller over PCIe. Some enclosures hide SMART data even when Finder can access your files.</p>
+      <h2 id="missing-drive">My drive or its SMART data is missing</h2>
+      <ol><li>Confirm the SSD appears as a physical drive in Disk Utility.</li><li>Connect the enclosure directly with an appropriate Thunderbolt or USB4 cable, if supported.</li><li>Choose Refresh in NVMe Monitor. If your manually selected drive has reconnected, select it again in Settings → Monitoring.</li></ol>
+      <h2>Notifications and temperature units</h2><p>Enable notifications in Settings → Alerts and allow them in macOS. In Settings → Monitoring, choose Celsius, Fahrenheit, or the system setting.</p>
+      <h2>Optional diagnostics</h2><p>In Settings → Support &amp; Privacy, you can preview or clear local MetricKit reports. Choose Attach MetricKit Diagnostics if you wish to share a report. Enter the support address in your email draft and review the message and attachment before sending.</p>
+      <p><a href="/privacy/">Read the Privacy Policy</a></p>
+    </article>
+  </main>
   <footer class="bar footer">
-    <small>© 2026 Ramiz Kichibekov</small>
-    <nav aria-label="Footer"><a href="/">Overview</a><a href="/support/" aria-current="page">Support</a><a href="/privacy/">Privacy Policy</a></nav>
+    <div><a class="footer-name" href="/">NVMe Monitor</a><p>Runs locally on your Mac. No account required.</p></div>
+    <div><p>Get Drive Temperature in Shortcuts</p><a href="mailto:support@nvmemonitor.app">support@nvmemonitor.app</a></div>
+    <nav aria-label="Footer"><a href="/">Overview</a><a href="/support/" aria-current="page">Support</a><a href="/privacy/">Privacy</a><a href="/press/">Press Kit</a></nav>
+    <a class="store-button" href="https://apps.apple.com/app/id6837879526">Mac App Store</a>
   </footer>
 </body>
 </html>
