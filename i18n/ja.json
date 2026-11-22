@@ -17,7 +17,8 @@
     "celsius": "摂氏",
     "fahrenheit": "華氏",
     "local": "Mac上で動作します。アカウントは不要です。",
-    "shortcuts": "ショートカットで「ドライブの温度を取得」"
+    "shortcuts": "ショートカットで「ドライブの温度を取得」",
+    "badgeAlt": "Mac App Storeからダウンロード"
   },
   "home": {
     "title": "NVMe Monitor — Macで外付けSSDの温度とSMART情報を確認",

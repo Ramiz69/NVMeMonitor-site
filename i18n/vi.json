@@ -17,7 +17,8 @@
     "celsius": "Độ C",
     "fahrenheit": "Độ F",
     "local": "Chạy ngay trên máy Mac. Không cần tài khoản.",
-    "shortcuts": "Lấy nhiệt độ ổ đĩa trong Phím tắt"
+    "shortcuts": "Lấy nhiệt độ ổ đĩa trong Phím tắt",
+    "badgeAlt": "Tải về trên Mac App Store"
   },
   "home": {
     "title": "NVMe Monitor — Xem nhiệt độ và tình trạng SMART của SSD ngoài trên Mac",

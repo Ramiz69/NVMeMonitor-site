@@ -15,6 +15,34 @@ const locales = {
   vi: 'Tiếng Việt', 'zh-Hans': '简体中文', 'zh-Hant': '繁體中文',
 };
 const pages = ['home', 'support', 'privacy', 'press'];
+const storePublished = process.argv.includes('--published-store');
+const storeBadges = new Map();
+if (storePublished) {
+  const badgeDirectory = process.env.NVME_APPLE_BADGES_DIR;
+  if (!badgeDirectory) throw new Error('Set NVME_APPLE_BADGES_DIR to the unmodified Mac App Store Marketing Kit badges.');
+  await mkdir(join(publicDir, 'assets/badges'), { recursive: true });
+  for (const locale of Object.keys(locales)) {
+    let badgeLocale = locale;
+    const filename = code => `badge-mac-black-${code}.svg`;
+    let artwork;
+    try {
+      artwork = await readFile(join(badgeDirectory, filename(locale)), 'utf8');
+    } catch (error) {
+      if (locale === 'en' || error.code !== 'ENOENT') throw error;
+      badgeLocale = 'en';
+      artwork = await readFile(join(badgeDirectory, filename(badgeLocale)), 'utf8');
+    }
+    const aspect = artwork.match(/viewBox="\s*[\d.]+\s+[\d.]+\s+([\d.]+)\s+([\d.]+)"/);
+    if (!aspect || !(Number(aspect[1]) > 0) || !(Number(aspect[2]) > 0)) {
+      throw new Error(`Invalid Mac App Store badge dimensions: ${badgeLocale}`);
+    }
+    const height = 48;
+    const width = Math.round(height * Number(aspect[1]) / Number(aspect[2]));
+    const url = `/assets/badges/${filename(badgeLocale)}`;
+    await writeFile(join(publicDir, url), artwork);
+    storeBadges.set(locale, { url, width, height });
+  }
+}
 const releaseAssets = '/assets/releases';
 await mkdir(join(publicDir, releaseAssets), { recursive: true });
 
@@ -106,8 +134,10 @@ function controls(locale, page, ui) {
     </div>`;
 }
 
-function storeButton() {
-  return `<a class="store-button" href="${appStore}">Mac App Store</a>`;
+function storeLink(locale) {
+  const badge = storeBadges.get(locale);
+  if (!badge) return `<a class="store-link" href="${appStore}">Mac App Store</a>`;
+  return `<a class="store-badge" href="${appStore}"><img src="${badge.url}" alt="${copy[locale].ui.badgeAlt}" width="${badge.width}" height="${badge.height}"></a>`;
 }
 
 function layout(locale, page, body) {
@@ -158,8 +188,7 @@ ${body}
   <footer class="bar footer">
     <div><a class="footer-name" href="${route(locale, 'home')}">NVMe Monitor</a><p>${ui.local}</p></div>
     <div><p>${ui.shortcuts}</p><a href="mailto:${email}">${email}</a></div>
-    <nav aria-label="${ui.footerNav}">${navigation(locale, page, ui, true)}</nav>
-    ${storeButton()}
+    <nav aria-label="${ui.footerNav}">${navigation(locale, page, ui, true)}</nav>${page === 'home' ? '' : `\n    ${storeLink(locale)}`}
   </footer>
 </body>
 </html>
@@ -177,7 +206,7 @@ function home(locale, { ui, home: t }) {
           <p class="intro">${t.intro}</p>
           <div class="hero-actions">
             <a class="button" href="#compatibility">${t.check}<img src="/assets/arrow.svg" width="16" height="16" alt=""></a>
-            ${storeButton()}
+            ${storeLink(locale)}
           </div>
         </div>
         <figure class="hero-image">

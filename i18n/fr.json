@@ -17,7 +17,8 @@
     "celsius": "Celsius",
     "fahrenheit": "Fahrenheit",
     "local": "Fonctionne localement sur votre Mac, sans compte.",
-    "shortcuts": "Obtenir la température du disque dans Raccourcis"
+    "shortcuts": "Obtenir la température du disque dans Raccourcis",
+    "badgeAlt": "Télécharger dans le Mac App Store"
   },
   "home": {
     "title": "NVMe Monitor — Température et état SMART des SSD externes sur Mac",

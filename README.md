@@ -15,3 +15,7 @@ Appearance and temperature-unit choices are stored in the visitor’s browser. T
 Connect this repository’s `main` branch in Cloudflare Pages. Use the `public` output directory with no build command. Attach `nvmemonitor.app` as a custom domain. The public support address is configured through the domain’s mail provider.
 
 The Search Console domain property should use DNS ownership verification. Submit `https://nvmemonitor.app/sitemap.xml` once verification completes.
+
+## Mac App Store release
+
+The default build uses a text link to the product page before release. After the app is available to download, point `NVME_APPLE_BADGES_DIR` at the unmodified Apple Marketing Kit SVGs named `badge-mac-black-<locale>.svg` and run `node build.mjs --published-store`. The build preserves the native badge aspect ratios and uses the English artwork for any locale without a Mac badge. Publish that build once the App Store product page is live.

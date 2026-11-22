@@ -311,18 +311,18 @@ select option { color: var(--ink); background: var(--paper); }
 
 .button { color: #10221a; }
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .7rem; }
-.store-button {
-  display: inline-flex;
-  align-items: center;
-  padding: .62rem 1rem;
-  border: 1px solid currentColor;
-  border-radius: 2rem;
+.store-link {
   font-weight: 600;
   font-size: .95rem;
-  text-decoration: none;
+  text-decoration: underline;
   white-space: nowrap;
 }
-.store-button:hover { text-decoration: underline; }
+.footer .store-link { text-decoration: underline; }
+.store-badge {
+  display: inline-block;
+  padding: .75rem;
+}
+.store-badge img { max-width: none; }
 figcaption { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; }
 .temperature-control select { color: var(--teal); }
 [dir="rtl"] .hero-actions img { transform: scaleX(-1); }

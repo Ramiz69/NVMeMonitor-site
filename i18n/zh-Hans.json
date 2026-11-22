@@ -17,7 +17,8 @@
     "celsius": "摄氏度",
     "fahrenheit": "华氏度",
     "local": "在你的 Mac 上本地运行，无需账户。",
-    "shortcuts": "在快捷指令中「获取驱动器温度」"
+    "shortcuts": "在快捷指令中「获取驱动器温度」",
+    "badgeAlt": "在 Mac App Store 下载"
   },
   "home": {
     "title": "NVMe Monitor — 在 Mac 上查看外置 SSD 温度与 SMART 状态",

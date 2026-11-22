@@ -17,7 +17,8 @@
     "celsius": "Santigrat",
     "fahrenheit": "Fahrenhayt",
     "local": "Mac’inizde yerel olarak çalışır. Hesap gerekmez.",
-    "shortcuts": "Kestirmeler’de “Sürücü sıcaklığını al” eylemi"
+    "shortcuts": "Kestirmeler’de “Sürücü sıcaklığını al” eylemi",
+    "badgeAlt": "Mac App Store’dan İndirin"
   },
   "home": {
     "title": "Mac için NVMe Monitor — Harici SSD sıcaklığı ve SMART verileri",

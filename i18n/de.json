@@ -17,7 +17,8 @@
     "celsius": "Celsius",
     "fahrenheit": "Fahrenheit",
     "local": "Läuft lokal auf deinem Mac. Du brauchst kein Konto.",
-    "shortcuts": "Laufwerkstemperatur mit Kurzbefehle abrufen"
+    "shortcuts": "Laufwerkstemperatur mit Kurzbefehle abrufen",
+    "badgeAlt": "Laden im Mac App Store"
   },
   "home": {
     "title": "NVMe Monitor – Temperatur und SMART-Status externer SSDs auf dem Mac",

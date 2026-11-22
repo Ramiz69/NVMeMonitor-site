@@ -17,7 +17,8 @@
     "celsius": "섭씨",
     "fahrenheit": "화씨",
     "local": "Mac에서 로컬로 실행되며, 계정이 필요하지 않습니다.",
-    "shortcuts": "단축어에서 ‘드라이브 온도 가져오기’"
+    "shortcuts": "단축어에서 ‘드라이브 온도 가져오기’",
+    "badgeAlt": "Mac App Store에서 다운로드"
   },
   "home": {
     "title": "NVMe Monitor — Mac용 외장 SSD 온도 및 SMART 모니터링",

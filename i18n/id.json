@@ -17,7 +17,8 @@
     "celsius": "Celsius",
     "fahrenheit": "Fahrenheit",
     "local": "Berjalan secara lokal di Mac Anda. Tidak perlu akun.",
-    "shortcuts": "Ambil Suhu Drive di Pintasan"
+    "shortcuts": "Ambil Suhu Drive di Pintasan",
+    "badgeAlt": "Unduh di Mac App Store"
   },
   "home": {
     "title": "NVMe Monitor — Pantau suhu dan SMART SSD eksternal di Mac",

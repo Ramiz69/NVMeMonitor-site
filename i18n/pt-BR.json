@@ -17,7 +17,8 @@
     "celsius": "Celsius",
     "fahrenheit": "Fahrenheit",
     "local": "Funciona localmente no Mac. Não precisa de conta.",
-    "shortcuts": "Obter temperatura da unidade no app Atalhos"
+    "shortcuts": "Obter temperatura da unidade no app Atalhos",
+    "badgeAlt": "Baixar na Mac App Store"
   },
   "home": {
     "title": "NVMe Monitor — Temperatura e status SMART de SSDs externos no Mac",
