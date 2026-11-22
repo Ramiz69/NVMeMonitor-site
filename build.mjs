@@ -1,4 +1,5 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -14,6 +15,20 @@ const locales = {
   vi: 'Tiếng Việt', 'zh-Hans': '简体中文', 'zh-Hant': '繁體中文',
 };
 const pages = ['home', 'support', 'privacy', 'press'];
+const releaseAssets = '/assets/releases';
+await mkdir(join(publicDir, releaseAssets), { recursive: true });
+
+async function versionAsset(name, extension) {
+  const bytes = await readFile(join(publicDir, 'assets', `${name}.${extension}`));
+  const hash = createHash('sha256').update(bytes).digest('hex').slice(0, 16);
+  const url = `${releaseAssets}/${name}.${hash}.${extension}`;
+  await writeFile(join(publicDir, url), bytes);
+  return url;
+}
+
+// Cached HTML must keep referring to the CSS and JavaScript it was built with.
+const stylesheet = await versionAsset('site', 'css');
+const preferencesScript = await versionAsset('preferences', 'js');
 
 function route(locale, page) {
   const parts = [];
@@ -117,8 +132,8 @@ function layout(locale, page, body) {
   <link rel="canonical" href="${canonical}">
   ${alternateLinks(page)}
   <link rel="icon" type="image/png" href="/assets/icon.png">
-  <script src="/assets/preferences.js"></script>
-  <link rel="stylesheet" href="/assets/site.css">
+  <script src="${preferencesScript}"></script>
+  <link rel="stylesheet" href="${stylesheet}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NVMe Monitor">
   <meta property="og:url" content="${canonical}">
